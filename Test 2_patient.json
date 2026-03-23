@@ -1,0 +1,18 @@
+{
+    "resourceType": "Patient",
+    "name": [
+        {
+            "given": [
+                "Camila"
+            ],
+            "family": "Briones",
+            "extension": [
+                {
+                    "url": "http://hl7.org/fhir/StructureDefinition/humanname-mothers-family",
+                    "valueString": "Garrido"
+                }
+            ]
+        }
+    ],
+    "birthDate": "1996-01-03"
+}
