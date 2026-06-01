@@ -1,0 +1,2246 @@
+{
+    "resourceType": "Composition",
+    "id": "c1",
+    "identifier": [
+        {
+            "system": "http://glucosa.cl/composition",
+            "value": "comp-1774272252"
+        }
+    ],
+    "status": "final",
+    "type": {
+        "coding": [
+            {
+                "system": "http://loinc.org",
+                "code": "11502-2",
+                "display": "Laboratory report"
+            }
+        ],
+        "text": "Laboratory report"
+    },
+    "title": "Informe de Perfil Ambulatorio de Glucosa",
+    "date": "2026-03-23T10:24:12.470547",
+    "author": [
+        {
+            "reference": "Device/d1"
+        }
+    ],
+    "subject": {
+        "reference": "Patient/p1"
+    },
+    "section": [
+        {
+            "title": "Observaciones de Glucosa",
+            "entry": [
+                {
+                    "reference": "Observation/o1"
+                },
+                {
+                    "reference": "Observation/o2"
+                },
+                {
+                    "reference": "Observation/o3"
+                },
+                {
+                    "reference": "Observation/o4"
+                },
+                {
+                    "reference": "Observation/o5"
+                },
+                {
+                    "reference": "Observation/o6"
+                },
+                {
+                    "reference": "Observation/o7"
+                },
+                {
+                    "reference": "Observation/o8"
+                },
+                {
+                    "reference": "Observation/o9"
+                },
+                {
+                    "reference": "Observation/o10"
+                },
+                {
+                    "reference": "Observation/o11"
+                },
+                {
+                    "reference": "Observation/o12"
+                },
+                {
+                    "reference": "Observation/o13"
+                },
+                {
+                    "reference": "Observation/o14"
+                },
+                {
+                    "reference": "Observation/o15"
+                },
+                {
+                    "reference": "Observation/o16"
+                },
+                {
+                    "reference": "Observation/o17"
+                },
+                {
+                    "reference": "Observation/o18"
+                },
+                {
+                    "reference": "Observation/o19"
+                },
+                {
+                    "reference": "Observation/o20"
+                },
+                {
+                    "reference": "Observation/o21"
+                },
+                {
+                    "reference": "Observation/o22"
+                },
+                {
+                    "reference": "Observation/o23"
+                },
+                {
+                    "reference": "Observation/o24"
+                },
+                {
+                    "reference": "Observation/o25"
+                },
+                {
+                    "reference": "Observation/o26"
+                },
+                {
+                    "reference": "Observation/o27"
+                },
+                {
+                    "reference": "Observation/o28"
+                },
+                {
+                    "reference": "Observation/o29"
+                },
+                {
+                    "reference": "Observation/o30"
+                },
+                {
+                    "reference": "Observation/o31"
+                },
+                {
+                    "reference": "Observation/o32"
+                },
+                {
+                    "reference": "Observation/o33"
+                },
+                {
+                    "reference": "Observation/o34"
+                },
+                {
+                    "reference": "Observation/o35"
+                },
+                {
+                    "reference": "Observation/o36"
+                },
+                {
+                    "reference": "Observation/o37"
+                },
+                {
+                    "reference": "Observation/o38"
+                },
+                {
+                    "reference": "Observation/o39"
+                },
+                {
+                    "reference": "Observation/o40"
+                },
+                {
+                    "reference": "Observation/o41"
+                },
+                {
+                    "reference": "Observation/o42"
+                },
+                {
+                    "reference": "Observation/o43"
+                },
+                {
+                    "reference": "Observation/o44"
+                },
+                {
+                    "reference": "Observation/o45"
+                },
+                {
+                    "reference": "Observation/o46"
+                },
+                {
+                    "reference": "Observation/o47"
+                },
+                {
+                    "reference": "Observation/o48"
+                },
+                {
+                    "reference": "Observation/o49"
+                },
+                {
+                    "reference": "Observation/o50"
+                },
+                {
+                    "reference": "Observation/o51"
+                },
+                {
+                    "reference": "Observation/o52"
+                },
+                {
+                    "reference": "Observation/o53"
+                },
+                {
+                    "reference": "Observation/o54"
+                },
+                {
+                    "reference": "Observation/o55"
+                },
+                {
+                    "reference": "Observation/o56"
+                },
+                {
+                    "reference": "Observation/o57"
+                },
+                {
+                    "reference": "Observation/o58"
+                },
+                {
+                    "reference": "Observation/o59"
+                },
+                {
+                    "reference": "Observation/o60"
+                },
+                {
+                    "reference": "Observation/o61"
+                },
+                {
+                    "reference": "Observation/o62"
+                },
+                {
+                    "reference": "Observation/o63"
+                },
+                {
+                    "reference": "Observation/o64"
+                },
+                {
+                    "reference": "Observation/o65"
+                },
+                {
+                    "reference": "Observation/o66"
+                },
+                {
+                    "reference": "Observation/o67"
+                },
+                {
+                    "reference": "Observation/o68"
+                },
+                {
+                    "reference": "Observation/o69"
+                },
+                {
+                    "reference": "Observation/o70"
+                },
+                {
+                    "reference": "Observation/o71"
+                },
+                {
+                    "reference": "Observation/o72"
+                },
+                {
+                    "reference": "Observation/o73"
+                },
+                {
+                    "reference": "Observation/o74"
+                },
+                {
+                    "reference": "Observation/o75"
+                },
+                {
+                    "reference": "Observation/o76"
+                },
+                {
+                    "reference": "Observation/o77"
+                },
+                {
+                    "reference": "Observation/o78"
+                },
+                {
+                    "reference": "Observation/o79"
+                },
+                {
+                    "reference": "Observation/o80"
+                },
+                {
+                    "reference": "Observation/o81"
+                },
+                {
+                    "reference": "Observation/o82"
+                },
+                {
+                    "reference": "Observation/o83"
+                },
+                {
+                    "reference": "Observation/o84"
+                },
+                {
+                    "reference": "Observation/o85"
+                },
+                {
+                    "reference": "Observation/o86"
+                },
+                {
+                    "reference": "Observation/o87"
+                },
+                {
+                    "reference": "Observation/o88"
+                },
+                {
+                    "reference": "Observation/o89"
+                },
+                {
+                    "reference": "Observation/o90"
+                },
+                {
+                    "reference": "Observation/o91"
+                },
+                {
+                    "reference": "Observation/o92"
+                },
+                {
+                    "reference": "Observation/o93"
+                },
+                {
+                    "reference": "Observation/o94"
+                },
+                {
+                    "reference": "Observation/o95"
+                },
+                {
+                    "reference": "Observation/o96"
+                },
+                {
+                    "reference": "Observation/o97"
+                },
+                {
+                    "reference": "Observation/o98"
+                },
+                {
+                    "reference": "Observation/o99"
+                },
+                {
+                    "reference": "Observation/o100"
+                },
+                {
+                    "reference": "Observation/o101"
+                },
+                {
+                    "reference": "Observation/o102"
+                },
+                {
+                    "reference": "Observation/o103"
+                },
+                {
+                    "reference": "Observation/o104"
+                },
+                {
+                    "reference": "Observation/o105"
+                },
+                {
+                    "reference": "Observation/o106"
+                },
+                {
+                    "reference": "Observation/o107"
+                },
+                {
+                    "reference": "Observation/o108"
+                },
+                {
+                    "reference": "Observation/o109"
+                },
+                {
+                    "reference": "Observation/o110"
+                },
+                {
+                    "reference": "Observation/o111"
+                },
+                {
+                    "reference": "Observation/o112"
+                },
+                {
+                    "reference": "Observation/o113"
+                },
+                {
+                    "reference": "Observation/o114"
+                },
+                {
+                    "reference": "Observation/o115"
+                },
+                {
+                    "reference": "Observation/o116"
+                },
+                {
+                    "reference": "Observation/o117"
+                },
+                {
+                    "reference": "Observation/o118"
+                },
+                {
+                    "reference": "Observation/o119"
+                },
+                {
+                    "reference": "Observation/o120"
+                },
+                {
+                    "reference": "Observation/o121"
+                },
+                {
+                    "reference": "Observation/o122"
+                },
+                {
+                    "reference": "Observation/o123"
+                },
+                {
+                    "reference": "Observation/o124"
+                },
+                {
+                    "reference": "Observation/o125"
+                },
+                {
+                    "reference": "Observation/o126"
+                },
+                {
+                    "reference": "Observation/o127"
+                },
+                {
+                    "reference": "Observation/o128"
+                },
+                {
+                    "reference": "Observation/o129"
+                },
+                {
+                    "reference": "Observation/o130"
+                },
+                {
+                    "reference": "Observation/o131"
+                },
+                {
+                    "reference": "Observation/o132"
+                },
+                {
+                    "reference": "Observation/o133"
+                },
+                {
+                    "reference": "Observation/o134"
+                },
+                {
+                    "reference": "Observation/o135"
+                },
+                {
+                    "reference": "Observation/o136"
+                },
+                {
+                    "reference": "Observation/o137"
+                },
+                {
+                    "reference": "Observation/o138"
+                },
+                {
+                    "reference": "Observation/o139"
+                },
+                {
+                    "reference": "Observation/o140"
+                },
+                {
+                    "reference": "Observation/o141"
+                },
+                {
+                    "reference": "Observation/o142"
+                },
+                {
+                    "reference": "Observation/o143"
+                },
+                {
+                    "reference": "Observation/o144"
+                },
+                {
+                    "reference": "Observation/o145"
+                },
+                {
+                    "reference": "Observation/o146"
+                },
+                {
+                    "reference": "Observation/o147"
+                },
+                {
+                    "reference": "Observation/o148"
+                },
+                {
+                    "reference": "Observation/o149"
+                },
+                {
+                    "reference": "Observation/o150"
+                },
+                {
+                    "reference": "Observation/o151"
+                },
+                {
+                    "reference": "Observation/o152"
+                },
+                {
+                    "reference": "Observation/o153"
+                },
+                {
+                    "reference": "Observation/o154"
+                },
+                {
+                    "reference": "Observation/o155"
+                },
+                {
+                    "reference": "Observation/o156"
+                },
+                {
+                    "reference": "Observation/o157"
+                },
+                {
+                    "reference": "Observation/o158"
+                },
+                {
+                    "reference": "Observation/o159"
+                },
+                {
+                    "reference": "Observation/o160"
+                },
+                {
+                    "reference": "Observation/o161"
+                },
+                {
+                    "reference": "Observation/o162"
+                },
+                {
+                    "reference": "Observation/o163"
+                },
+                {
+                    "reference": "Observation/o164"
+                },
+                {
+                    "reference": "Observation/o165"
+                },
+                {
+                    "reference": "Observation/o166"
+                },
+                {
+                    "reference": "Observation/o167"
+                },
+                {
+                    "reference": "Observation/o168"
+                },
+                {
+                    "reference": "Observation/o169"
+                },
+                {
+                    "reference": "Observation/o170"
+                },
+                {
+                    "reference": "Observation/o171"
+                },
+                {
+                    "reference": "Observation/o172"
+                },
+                {
+                    "reference": "Observation/o173"
+                },
+                {
+                    "reference": "Observation/o174"
+                },
+                {
+                    "reference": "Observation/o175"
+                },
+                {
+                    "reference": "Observation/o176"
+                },
+                {
+                    "reference": "Observation/o177"
+                },
+                {
+                    "reference": "Observation/o178"
+                },
+                {
+                    "reference": "Observation/o179"
+                },
+                {
+                    "reference": "Observation/o180"
+                },
+                {
+                    "reference": "Observation/o181"
+                },
+                {
+                    "reference": "Observation/o182"
+                },
+                {
+                    "reference": "Observation/o183"
+                },
+                {
+                    "reference": "Observation/o184"
+                },
+                {
+                    "reference": "Observation/o185"
+                },
+                {
+                    "reference": "Observation/o186"
+                },
+                {
+                    "reference": "Observation/o187"
+                },
+                {
+                    "reference": "Observation/o188"
+                },
+                {
+                    "reference": "Observation/o189"
+                },
+                {
+                    "reference": "Observation/o190"
+                },
+                {
+                    "reference": "Observation/o191"
+                },
+                {
+                    "reference": "Observation/o192"
+                },
+                {
+                    "reference": "Observation/o193"
+                },
+                {
+                    "reference": "Observation/o194"
+                },
+                {
+                    "reference": "Observation/o195"
+                },
+                {
+                    "reference": "Observation/o196"
+                },
+                {
+                    "reference": "Observation/o197"
+                },
+                {
+                    "reference": "Observation/o198"
+                },
+                {
+                    "reference": "Observation/o199"
+                },
+                {
+                    "reference": "Observation/o200"
+                },
+                {
+                    "reference": "Observation/o201"
+                },
+                {
+                    "reference": "Observation/o202"
+                },
+                {
+                    "reference": "Observation/o203"
+                },
+                {
+                    "reference": "Observation/o204"
+                },
+                {
+                    "reference": "Observation/o205"
+                },
+                {
+                    "reference": "Observation/o206"
+                },
+                {
+                    "reference": "Observation/o207"
+                },
+                {
+                    "reference": "Observation/o208"
+                },
+                {
+                    "reference": "Observation/o209"
+                },
+                {
+                    "reference": "Observation/o210"
+                },
+                {
+                    "reference": "Observation/o211"
+                },
+                {
+                    "reference": "Observation/o212"
+                },
+                {
+                    "reference": "Observation/o213"
+                },
+                {
+                    "reference": "Observation/o214"
+                },
+                {
+                    "reference": "Observation/o215"
+                },
+                {
+                    "reference": "Observation/o216"
+                },
+                {
+                    "reference": "Observation/o217"
+                },
+                {
+                    "reference": "Observation/o218"
+                },
+                {
+                    "reference": "Observation/o219"
+                },
+                {
+                    "reference": "Observation/o220"
+                },
+                {
+                    "reference": "Observation/o221"
+                },
+                {
+                    "reference": "Observation/o222"
+                },
+                {
+                    "reference": "Observation/o223"
+                },
+                {
+                    "reference": "Observation/o224"
+                },
+                {
+                    "reference": "Observation/o225"
+                },
+                {
+                    "reference": "Observation/o226"
+                },
+                {
+                    "reference": "Observation/o227"
+                },
+                {
+                    "reference": "Observation/o228"
+                },
+                {
+                    "reference": "Observation/o229"
+                },
+                {
+                    "reference": "Observation/o230"
+                },
+                {
+                    "reference": "Observation/o231"
+                },
+                {
+                    "reference": "Observation/o232"
+                },
+                {
+                    "reference": "Observation/o233"
+                },
+                {
+                    "reference": "Observation/o234"
+                },
+                {
+                    "reference": "Observation/o235"
+                },
+                {
+                    "reference": "Observation/o236"
+                },
+                {
+                    "reference": "Observation/o237"
+                },
+                {
+                    "reference": "Observation/o238"
+                },
+                {
+                    "reference": "Observation/o239"
+                },
+                {
+                    "reference": "Observation/o240"
+                },
+                {
+                    "reference": "Observation/o241"
+                },
+                {
+                    "reference": "Observation/o242"
+                },
+                {
+                    "reference": "Observation/o243"
+                },
+                {
+                    "reference": "Observation/o244"
+                },
+                {
+                    "reference": "Observation/o245"
+                },
+                {
+                    "reference": "Observation/o246"
+                },
+                {
+                    "reference": "Observation/o247"
+                },
+                {
+                    "reference": "Observation/o248"
+                },
+                {
+                    "reference": "Observation/o249"
+                },
+                {
+                    "reference": "Observation/o250"
+                },
+                {
+                    "reference": "Observation/o251"
+                },
+                {
+                    "reference": "Observation/o252"
+                },
+                {
+                    "reference": "Observation/o253"
+                },
+                {
+                    "reference": "Observation/o254"
+                },
+                {
+                    "reference": "Observation/o255"
+                },
+                {
+                    "reference": "Observation/o256"
+                },
+                {
+                    "reference": "Observation/o257"
+                },
+                {
+                    "reference": "Observation/o258"
+                },
+                {
+                    "reference": "Observation/o259"
+                },
+                {
+                    "reference": "Observation/o260"
+                },
+                {
+                    "reference": "Observation/o261"
+                },
+                {
+                    "reference": "Observation/o262"
+                },
+                {
+                    "reference": "Observation/o263"
+                },
+                {
+                    "reference": "Observation/o264"
+                },
+                {
+                    "reference": "Observation/o265"
+                },
+                {
+                    "reference": "Observation/o266"
+                },
+                {
+                    "reference": "Observation/o267"
+                },
+                {
+                    "reference": "Observation/o268"
+                },
+                {
+                    "reference": "Observation/o269"
+                },
+                {
+                    "reference": "Observation/o270"
+                },
+                {
+                    "reference": "Observation/o271"
+                },
+                {
+                    "reference": "Observation/o272"
+                },
+                {
+                    "reference": "Observation/o273"
+                },
+                {
+                    "reference": "Observation/o274"
+                },
+                {
+                    "reference": "Observation/o275"
+                },
+                {
+                    "reference": "Observation/o276"
+                },
+                {
+                    "reference": "Observation/o277"
+                },
+                {
+                    "reference": "Observation/o278"
+                },
+                {
+                    "reference": "Observation/o279"
+                },
+                {
+                    "reference": "Observation/o280"
+                },
+                {
+                    "reference": "Observation/o281"
+                },
+                {
+                    "reference": "Observation/o282"
+                },
+                {
+                    "reference": "Observation/o283"
+                },
+                {
+                    "reference": "Observation/o284"
+                },
+                {
+                    "reference": "Observation/o285"
+                },
+                {
+                    "reference": "Observation/o286"
+                },
+                {
+                    "reference": "Observation/o287"
+                },
+                {
+                    "reference": "Observation/o288"
+                },
+                {
+                    "reference": "Observation/o289"
+                },
+                {
+                    "reference": "Observation/o290"
+                },
+                {
+                    "reference": "Observation/o291"
+                },
+                {
+                    "reference": "Observation/o292"
+                },
+                {
+                    "reference": "Observation/o293"
+                },
+                {
+                    "reference": "Observation/o294"
+                },
+                {
+                    "reference": "Observation/o295"
+                },
+                {
+                    "reference": "Observation/o296"
+                },
+                {
+                    "reference": "Observation/o297"
+                },
+                {
+                    "reference": "Observation/o298"
+                },
+                {
+                    "reference": "Observation/o299"
+                },
+                {
+                    "reference": "Observation/o300"
+                },
+                {
+                    "reference": "Observation/o301"
+                },
+                {
+                    "reference": "Observation/o302"
+                },
+                {
+                    "reference": "Observation/o303"
+                },
+                {
+                    "reference": "Observation/o304"
+                },
+                {
+                    "reference": "Observation/o305"
+                },
+                {
+                    "reference": "Observation/o306"
+                },
+                {
+                    "reference": "Observation/o307"
+                },
+                {
+                    "reference": "Observation/o308"
+                },
+                {
+                    "reference": "Observation/o309"
+                },
+                {
+                    "reference": "Observation/o310"
+                },
+                {
+                    "reference": "Observation/o311"
+                },
+                {
+                    "reference": "Observation/o312"
+                },
+                {
+                    "reference": "Observation/o313"
+                },
+                {
+                    "reference": "Observation/o314"
+                },
+                {
+                    "reference": "Observation/o315"
+                },
+                {
+                    "reference": "Observation/o316"
+                },
+                {
+                    "reference": "Observation/o317"
+                },
+                {
+                    "reference": "Observation/o318"
+                },
+                {
+                    "reference": "Observation/o319"
+                },
+                {
+                    "reference": "Observation/o320"
+                },
+                {
+                    "reference": "Observation/o321"
+                },
+                {
+                    "reference": "Observation/o322"
+                },
+                {
+                    "reference": "Observation/o323"
+                },
+                {
+                    "reference": "Observation/o324"
+                },
+                {
+                    "reference": "Observation/o325"
+                },
+                {
+                    "reference": "Observation/o326"
+                },
+                {
+                    "reference": "Observation/o327"
+                },
+                {
+                    "reference": "Observation/o328"
+                },
+                {
+                    "reference": "Observation/o329"
+                },
+                {
+                    "reference": "Observation/o330"
+                },
+                {
+                    "reference": "Observation/o331"
+                },
+                {
+                    "reference": "Observation/o332"
+                },
+                {
+                    "reference": "Observation/o333"
+                },
+                {
+                    "reference": "Observation/o334"
+                },
+                {
+                    "reference": "Observation/o335"
+                },
+                {
+                    "reference": "Observation/o336"
+                },
+                {
+                    "reference": "Observation/o337"
+                },
+                {
+                    "reference": "Observation/o338"
+                },
+                {
+                    "reference": "Observation/o339"
+                },
+                {
+                    "reference": "Observation/o340"
+                },
+                {
+                    "reference": "Observation/o341"
+                },
+                {
+                    "reference": "Observation/o342"
+                },
+                {
+                    "reference": "Observation/o343"
+                },
+                {
+                    "reference": "Observation/o344"
+                },
+                {
+                    "reference": "Observation/o345"
+                },
+                {
+                    "reference": "Observation/o346"
+                },
+                {
+                    "reference": "Observation/o347"
+                },
+                {
+                    "reference": "Observation/o348"
+                },
+                {
+                    "reference": "Observation/o349"
+                },
+                {
+                    "reference": "Observation/o350"
+                },
+                {
+                    "reference": "Observation/o351"
+                },
+                {
+                    "reference": "Observation/o352"
+                },
+                {
+                    "reference": "Observation/o353"
+                },
+                {
+                    "reference": "Observation/o354"
+                },
+                {
+                    "reference": "Observation/o355"
+                },
+                {
+                    "reference": "Observation/o356"
+                },
+                {
+                    "reference": "Observation/o357"
+                },
+                {
+                    "reference": "Observation/o358"
+                },
+                {
+                    "reference": "Observation/o359"
+                },
+                {
+                    "reference": "Observation/o360"
+                },
+                {
+                    "reference": "Observation/o361"
+                },
+                {
+                    "reference": "Observation/o362"
+                },
+                {
+                    "reference": "Observation/o363"
+                },
+                {
+                    "reference": "Observation/o364"
+                },
+                {
+                    "reference": "Observation/o365"
+                },
+                {
+                    "reference": "Observation/o366"
+                },
+                {
+                    "reference": "Observation/o367"
+                },
+                {
+                    "reference": "Observation/o368"
+                },
+                {
+                    "reference": "Observation/o369"
+                },
+                {
+                    "reference": "Observation/o370"
+                },
+                {
+                    "reference": "Observation/o371"
+                },
+                {
+                    "reference": "Observation/o372"
+                },
+                {
+                    "reference": "Observation/o373"
+                },
+                {
+                    "reference": "Observation/o374"
+                },
+                {
+                    "reference": "Observation/o375"
+                },
+                {
+                    "reference": "Observation/o376"
+                },
+                {
+                    "reference": "Observation/o377"
+                },
+                {
+                    "reference": "Observation/o378"
+                },
+                {
+                    "reference": "Observation/o379"
+                },
+                {
+                    "reference": "Observation/o380"
+                },
+                {
+                    "reference": "Observation/o381"
+                },
+                {
+                    "reference": "Observation/o382"
+                },
+                {
+                    "reference": "Observation/o383"
+                },
+                {
+                    "reference": "Observation/o384"
+                },
+                {
+                    "reference": "Observation/o385"
+                },
+                {
+                    "reference": "Observation/o386"
+                },
+                {
+                    "reference": "Observation/o387"
+                },
+                {
+                    "reference": "Observation/o388"
+                },
+                {
+                    "reference": "Observation/o389"
+                },
+                {
+                    "reference": "Observation/o390"
+                },
+                {
+                    "reference": "Observation/o391"
+                },
+                {
+                    "reference": "Observation/o392"
+                },
+                {
+                    "reference": "Observation/o393"
+                },
+                {
+                    "reference": "Observation/o394"
+                },
+                {
+                    "reference": "Observation/o395"
+                },
+                {
+                    "reference": "Observation/o396"
+                },
+                {
+                    "reference": "Observation/o397"
+                },
+                {
+                    "reference": "Observation/o398"
+                },
+                {
+                    "reference": "Observation/o399"
+                },
+                {
+                    "reference": "Observation/o400"
+                },
+                {
+                    "reference": "Observation/o401"
+                },
+                {
+                    "reference": "Observation/o402"
+                },
+                {
+                    "reference": "Observation/o403"
+                },
+                {
+                    "reference": "Observation/o404"
+                },
+                {
+                    "reference": "Observation/o405"
+                },
+                {
+                    "reference": "Observation/o406"
+                },
+                {
+                    "reference": "Observation/o407"
+                },
+                {
+                    "reference": "Observation/o408"
+                },
+                {
+                    "reference": "Observation/o409"
+                },
+                {
+                    "reference": "Observation/o410"
+                },
+                {
+                    "reference": "Observation/o411"
+                },
+                {
+                    "reference": "Observation/o412"
+                },
+                {
+                    "reference": "Observation/o413"
+                },
+                {
+                    "reference": "Observation/o414"
+                },
+                {
+                    "reference": "Observation/o415"
+                },
+                {
+                    "reference": "Observation/o416"
+                },
+                {
+                    "reference": "Observation/o417"
+                },
+                {
+                    "reference": "Observation/o418"
+                },
+                {
+                    "reference": "Observation/o419"
+                },
+                {
+                    "reference": "Observation/o420"
+                },
+                {
+                    "reference": "Observation/o421"
+                },
+                {
+                    "reference": "Observation/o422"
+                },
+                {
+                    "reference": "Observation/o423"
+                },
+                {
+                    "reference": "Observation/o424"
+                },
+                {
+                    "reference": "Observation/o425"
+                },
+                {
+                    "reference": "Observation/o426"
+                },
+                {
+                    "reference": "Observation/o427"
+                },
+                {
+                    "reference": "Observation/o428"
+                },
+                {
+                    "reference": "Observation/o429"
+                },
+                {
+                    "reference": "Observation/o430"
+                },
+                {
+                    "reference": "Observation/o431"
+                },
+                {
+                    "reference": "Observation/o432"
+                },
+                {
+                    "reference": "Observation/o433"
+                },
+                {
+                    "reference": "Observation/o434"
+                },
+                {
+                    "reference": "Observation/o435"
+                },
+                {
+                    "reference": "Observation/o436"
+                },
+                {
+                    "reference": "Observation/o437"
+                },
+                {
+                    "reference": "Observation/o438"
+                },
+                {
+                    "reference": "Observation/o439"
+                },
+                {
+                    "reference": "Observation/o440"
+                },
+                {
+                    "reference": "Observation/o441"
+                },
+                {
+                    "reference": "Observation/o442"
+                },
+                {
+                    "reference": "Observation/o443"
+                },
+                {
+                    "reference": "Observation/o444"
+                },
+                {
+                    "reference": "Observation/o445"
+                },
+                {
+                    "reference": "Observation/o446"
+                },
+                {
+                    "reference": "Observation/o447"
+                },
+                {
+                    "reference": "Observation/o448"
+                },
+                {
+                    "reference": "Observation/o449"
+                },
+                {
+                    "reference": "Observation/o450"
+                },
+                {
+                    "reference": "Observation/o451"
+                },
+                {
+                    "reference": "Observation/o452"
+                },
+                {
+                    "reference": "Observation/o453"
+                },
+                {
+                    "reference": "Observation/o454"
+                },
+                {
+                    "reference": "Observation/o455"
+                },
+                {
+                    "reference": "Observation/o456"
+                },
+                {
+                    "reference": "Observation/o457"
+                },
+                {
+                    "reference": "Observation/o458"
+                },
+                {
+                    "reference": "Observation/o459"
+                },
+                {
+                    "reference": "Observation/o460"
+                },
+                {
+                    "reference": "Observation/o461"
+                },
+                {
+                    "reference": "Observation/o462"
+                },
+                {
+                    "reference": "Observation/o463"
+                },
+                {
+                    "reference": "Observation/o464"
+                },
+                {
+                    "reference": "Observation/o465"
+                },
+                {
+                    "reference": "Observation/o466"
+                },
+                {
+                    "reference": "Observation/o467"
+                },
+                {
+                    "reference": "Observation/o468"
+                },
+                {
+                    "reference": "Observation/o469"
+                },
+                {
+                    "reference": "Observation/o470"
+                },
+                {
+                    "reference": "Observation/o471"
+                },
+                {
+                    "reference": "Observation/o472"
+                },
+                {
+                    "reference": "Observation/o473"
+                },
+                {
+                    "reference": "Observation/o474"
+                },
+                {
+                    "reference": "Observation/o475"
+                },
+                {
+                    "reference": "Observation/o476"
+                },
+                {
+                    "reference": "Observation/o477"
+                },
+                {
+                    "reference": "Observation/o478"
+                },
+                {
+                    "reference": "Observation/o479"
+                },
+                {
+                    "reference": "Observation/o480"
+                },
+                {
+                    "reference": "Observation/o481"
+                },
+                {
+                    "reference": "Observation/o482"
+                },
+                {
+                    "reference": "Observation/o483"
+                },
+                {
+                    "reference": "Observation/o484"
+                },
+                {
+                    "reference": "Observation/o485"
+                },
+                {
+                    "reference": "Observation/o486"
+                },
+                {
+                    "reference": "Observation/o487"
+                },
+                {
+                    "reference": "Observation/o488"
+                },
+                {
+                    "reference": "Observation/o489"
+                },
+                {
+                    "reference": "Observation/o490"
+                },
+                {
+                    "reference": "Observation/o491"
+                },
+                {
+                    "reference": "Observation/o492"
+                },
+                {
+                    "reference": "Observation/o493"
+                },
+                {
+                    "reference": "Observation/o494"
+                },
+                {
+                    "reference": "Observation/o495"
+                },
+                {
+                    "reference": "Observation/o496"
+                },
+                {
+                    "reference": "Observation/o497"
+                },
+                {
+                    "reference": "Observation/o498"
+                },
+                {
+                    "reference": "Observation/o499"
+                },
+                {
+                    "reference": "Observation/o500"
+                },
+                {
+                    "reference": "Observation/o501"
+                },
+                {
+                    "reference": "Observation/o502"
+                },
+                {
+                    "reference": "Observation/o503"
+                },
+                {
+                    "reference": "Observation/o504"
+                },
+                {
+                    "reference": "Observation/o505"
+                },
+                {
+                    "reference": "Observation/o506"
+                },
+                {
+                    "reference": "Observation/o507"
+                },
+                {
+                    "reference": "Observation/o508"
+                },
+                {
+                    "reference": "Observation/o509"
+                },
+                {
+                    "reference": "Observation/o510"
+                },
+                {
+                    "reference": "Observation/o511"
+                },
+                {
+                    "reference": "Observation/o512"
+                },
+                {
+                    "reference": "Observation/o513"
+                },
+                {
+                    "reference": "Observation/o514"
+                },
+                {
+                    "reference": "Observation/o515"
+                },
+                {
+                    "reference": "Observation/o516"
+                },
+                {
+                    "reference": "Observation/o517"
+                },
+                {
+                    "reference": "Observation/o518"
+                },
+                {
+                    "reference": "Observation/o519"
+                },
+                {
+                    "reference": "Observation/o520"
+                },
+                {
+                    "reference": "Observation/o521"
+                },
+                {
+                    "reference": "Observation/o522"
+                },
+                {
+                    "reference": "Observation/o523"
+                },
+                {
+                    "reference": "Observation/o524"
+                },
+                {
+                    "reference": "Observation/o525"
+                },
+                {
+                    "reference": "Observation/o526"
+                },
+                {
+                    "reference": "Observation/o527"
+                },
+                {
+                    "reference": "Observation/o528"
+                },
+                {
+                    "reference": "Observation/o529"
+                },
+                {
+                    "reference": "Observation/o530"
+                },
+                {
+                    "reference": "Observation/o531"
+                },
+                {
+                    "reference": "Observation/o532"
+                },
+                {
+                    "reference": "Observation/o533"
+                },
+                {
+                    "reference": "Observation/o534"
+                },
+                {
+                    "reference": "Observation/o535"
+                },
+                {
+                    "reference": "Observation/o536"
+                },
+                {
+                    "reference": "Observation/o537"
+                },
+                {
+                    "reference": "Observation/o538"
+                },
+                {
+                    "reference": "Observation/o539"
+                },
+                {
+                    "reference": "Observation/o540"
+                },
+                {
+                    "reference": "Observation/o541"
+                },
+                {
+                    "reference": "Observation/o542"
+                },
+                {
+                    "reference": "Observation/o543"
+                },
+                {
+                    "reference": "Observation/o544"
+                },
+                {
+                    "reference": "Observation/o545"
+                },
+                {
+                    "reference": "Observation/o546"
+                },
+                {
+                    "reference": "Observation/o547"
+                },
+                {
+                    "reference": "Observation/o548"
+                },
+                {
+                    "reference": "Observation/o549"
+                },
+                {
+                    "reference": "Observation/o550"
+                },
+                {
+                    "reference": "Observation/o551"
+                },
+                {
+                    "reference": "Observation/o552"
+                },
+                {
+                    "reference": "Observation/o553"
+                },
+                {
+                    "reference": "Observation/o554"
+                },
+                {
+                    "reference": "Observation/o555"
+                },
+                {
+                    "reference": "Observation/o556"
+                },
+                {
+                    "reference": "Observation/o557"
+                },
+                {
+                    "reference": "Observation/o558"
+                },
+                {
+                    "reference": "Observation/o559"
+                },
+                {
+                    "reference": "Observation/o560"
+                },
+                {
+                    "reference": "Observation/o561"
+                },
+                {
+                    "reference": "Observation/o562"
+                },
+                {
+                    "reference": "Observation/o563"
+                },
+                {
+                    "reference": "Observation/o564"
+                },
+                {
+                    "reference": "Observation/o565"
+                },
+                {
+                    "reference": "Observation/o566"
+                },
+                {
+                    "reference": "Observation/o567"
+                },
+                {
+                    "reference": "Observation/o568"
+                },
+                {
+                    "reference": "Observation/o569"
+                },
+                {
+                    "reference": "Observation/o570"
+                },
+                {
+                    "reference": "Observation/o571"
+                },
+                {
+                    "reference": "Observation/o572"
+                },
+                {
+                    "reference": "Observation/o573"
+                },
+                {
+                    "reference": "Observation/o574"
+                },
+                {
+                    "reference": "Observation/o575"
+                },
+                {
+                    "reference": "Observation/o576"
+                },
+                {
+                    "reference": "Observation/o577"
+                },
+                {
+                    "reference": "Observation/o578"
+                },
+                {
+                    "reference": "Observation/o579"
+                },
+                {
+                    "reference": "Observation/o580"
+                },
+                {
+                    "reference": "Observation/o581"
+                },
+                {
+                    "reference": "Observation/o582"
+                },
+                {
+                    "reference": "Observation/o583"
+                },
+                {
+                    "reference": "Observation/o584"
+                },
+                {
+                    "reference": "Observation/o585"
+                },
+                {
+                    "reference": "Observation/o586"
+                },
+                {
+                    "reference": "Observation/o587"
+                },
+                {
+                    "reference": "Observation/o588"
+                },
+                {
+                    "reference": "Observation/o589"
+                },
+                {
+                    "reference": "Observation/o590"
+                },
+                {
+                    "reference": "Observation/o591"
+                },
+                {
+                    "reference": "Observation/o592"
+                },
+                {
+                    "reference": "Observation/o593"
+                },
+                {
+                    "reference": "Observation/o594"
+                },
+                {
+                    "reference": "Observation/o595"
+                },
+                {
+                    "reference": "Observation/o596"
+                },
+                {
+                    "reference": "Observation/o597"
+                },
+                {
+                    "reference": "Observation/o598"
+                },
+                {
+                    "reference": "Observation/o599"
+                },
+                {
+                    "reference": "Observation/o600"
+                },
+                {
+                    "reference": "Observation/o601"
+                },
+                {
+                    "reference": "Observation/o602"
+                },
+                {
+                    "reference": "Observation/o603"
+                },
+                {
+                    "reference": "Observation/o604"
+                },
+                {
+                    "reference": "Observation/o605"
+                },
+                {
+                    "reference": "Observation/o606"
+                },
+                {
+                    "reference": "Observation/o607"
+                },
+                {
+                    "reference": "Observation/o608"
+                },
+                {
+                    "reference": "Observation/o609"
+                },
+                {
+                    "reference": "Observation/o610"
+                },
+                {
+                    "reference": "Observation/o611"
+                },
+                {
+                    "reference": "Observation/o612"
+                },
+                {
+                    "reference": "Observation/o613"
+                },
+                {
+                    "reference": "Observation/o614"
+                },
+                {
+                    "reference": "Observation/o615"
+                },
+                {
+                    "reference": "Observation/o616"
+                },
+                {
+                    "reference": "Observation/o617"
+                },
+                {
+                    "reference": "Observation/o618"
+                },
+                {
+                    "reference": "Observation/o619"
+                },
+                {
+                    "reference": "Observation/o620"
+                },
+                {
+                    "reference": "Observation/o621"
+                },
+                {
+                    "reference": "Observation/o622"
+                },
+                {
+                    "reference": "Observation/o623"
+                },
+                {
+                    "reference": "Observation/o624"
+                },
+                {
+                    "reference": "Observation/o625"
+                },
+                {
+                    "reference": "Observation/o626"
+                },
+                {
+                    "reference": "Observation/o627"
+                },
+                {
+                    "reference": "Observation/o628"
+                },
+                {
+                    "reference": "Observation/o629"
+                },
+                {
+                    "reference": "Observation/o630"
+                },
+                {
+                    "reference": "Observation/o631"
+                },
+                {
+                    "reference": "Observation/o632"
+                },
+                {
+                    "reference": "Observation/o633"
+                },
+                {
+                    "reference": "Observation/o634"
+                },
+                {
+                    "reference": "Observation/o635"
+                },
+                {
+                    "reference": "Observation/o636"
+                },
+                {
+                    "reference": "Observation/o637"
+                },
+                {
+                    "reference": "Observation/o638"
+                },
+                {
+                    "reference": "Observation/o639"
+                },
+                {
+                    "reference": "Observation/o640"
+                },
+                {
+                    "reference": "Observation/o641"
+                },
+                {
+                    "reference": "Observation/o642"
+                },
+                {
+                    "reference": "Observation/o643"
+                },
+                {
+                    "reference": "Observation/o644"
+                },
+                {
+                    "reference": "Observation/o645"
+                },
+                {
+                    "reference": "Observation/o646"
+                },
+                {
+                    "reference": "Observation/o647"
+                },
+                {
+                    "reference": "Observation/o648"
+                },
+                {
+                    "reference": "Observation/o649"
+                },
+                {
+                    "reference": "Observation/o650"
+                },
+                {
+                    "reference": "Observation/o651"
+                },
+                {
+                    "reference": "Observation/o652"
+                },
+                {
+                    "reference": "Observation/o653"
+                },
+                {
+                    "reference": "Observation/o654"
+                },
+                {
+                    "reference": "Observation/o655"
+                },
+                {
+                    "reference": "Observation/o656"
+                },
+                {
+                    "reference": "Observation/o657"
+                },
+                {
+                    "reference": "Observation/o658"
+                },
+                {
+                    "reference": "Observation/o659"
+                },
+                {
+                    "reference": "Observation/o660"
+                },
+                {
+                    "reference": "Observation/o661"
+                },
+                {
+                    "reference": "Observation/o662"
+                },
+                {
+                    "reference": "Observation/o663"
+                },
+                {
+                    "reference": "Observation/o664"
+                },
+                {
+                    "reference": "Observation/o665"
+                },
+                {
+                    "reference": "Observation/o666"
+                },
+                {
+                    "reference": "Observation/o667"
+                },
+                {
+                    "reference": "Observation/o668"
+                },
+                {
+                    "reference": "Observation/o669"
+                },
+                {
+                    "reference": "Observation/o670"
+                },
+                {
+                    "reference": "Observation/o671"
+                },
+                {
+                    "reference": "Observation/o672"
+                },
+                {
+                    "reference": "Observation/o673"
+                },
+                {
+                    "reference": "Observation/o674"
+                },
+                {
+                    "reference": "Observation/o675"
+                },
+                {
+                    "reference": "Observation/o676"
+                },
+                {
+                    "reference": "Observation/o677"
+                },
+                {
+                    "reference": "Observation/o678"
+                },
+                {
+                    "reference": "Observation/o679"
+                },
+                {
+                    "reference": "Observation/o680"
+                },
+                {
+                    "reference": "Observation/o681"
+                },
+                {
+                    "reference": "Observation/o682"
+                },
+                {
+                    "reference": "Observation/o683"
+                },
+                {
+                    "reference": "Observation/o684"
+                },
+                {
+                    "reference": "Observation/o685"
+                },
+                {
+                    "reference": "Observation/o686"
+                },
+                {
+                    "reference": "Observation/o687"
+                },
+                {
+                    "reference": "Observation/o688"
+                },
+                {
+                    "reference": "Observation/o689"
+                },
+                {
+                    "reference": "Observation/o690"
+                },
+                {
+                    "reference": "Observation/o691"
+                },
+                {
+                    "reference": "Observation/o692"
+                },
+                {
+                    "reference": "Observation/o693"
+                },
+                {
+                    "reference": "Observation/o694"
+                },
+                {
+                    "reference": "Observation/o695"
+                },
+                {
+                    "reference": "Observation/o696"
+                },
+                {
+                    "reference": "Observation/o697"
+                },
+                {
+                    "reference": "Observation/o698"
+                },
+                {
+                    "reference": "Observation/o699"
+                },
+                {
+                    "reference": "Observation/o700"
+                },
+                {
+                    "reference": "Observation/o701"
+                },
+                {
+                    "reference": "Observation/o702"
+                },
+                {
+                    "reference": "Observation/o703"
+                },
+                {
+                    "reference": "Observation/o704"
+                },
+                {
+                    "reference": "Observation/o705"
+                },
+                {
+                    "reference": "Observation/o706"
+                },
+                {
+                    "reference": "Observation/o707"
+                },
+                {
+                    "reference": "Observation/o708"
+                },
+                {
+                    "reference": "Observation/o709"
+                },
+                {
+                    "reference": "Observation/o710"
+                },
+                {
+                    "reference": "Observation/o711"
+                },
+                {
+                    "reference": "Observation/o712"
+                },
+                {
+                    "reference": "Observation/o713"
+                },
+                {
+                    "reference": "Observation/o714"
+                },
+                {
+                    "reference": "Observation/o715"
+                },
+                {
+                    "reference": "Observation/o716"
+                },
+                {
+                    "reference": "Observation/o717"
+                },
+                {
+                    "reference": "Observation/o718"
+                },
+                {
+                    "reference": "Observation/o719"
+                },
+                {
+                    "reference": "Observation/o720"
+                },
+                {
+                    "reference": "Observation/o721"
+                },
+                {
+                    "reference": "Observation/o722"
+                },
+                {
+                    "reference": "Observation/o723"
+                },
+                {
+                    "reference": "Observation/o724"
+                },
+                {
+                    "reference": "Observation/o725"
+                },
+                {
+                    "reference": "Observation/o726"
+                },
+                {
+                    "reference": "Observation/o727"
+                },
+                {
+                    "reference": "Observation/o728"
+                },
+                {
+                    "reference": "Observation/o729"
+                },
+                {
+                    "reference": "Observation/o730"
+                },
+                {
+                    "reference": "Observation/o731"
+                },
+                {
+                    "reference": "Observation/o732"
+                },
+                {
+                    "reference": "Observation/o733"
+                },
+                {
+                    "reference": "Observation/o734"
+                },
+                {
+                    "reference": "Observation/o735"
+                },
+                {
+                    "reference": "Observation/o736"
+                }
+            ]
+        }
+    ]
+}

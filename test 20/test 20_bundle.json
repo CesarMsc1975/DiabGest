@@ -1,17 +1,17 @@
 {
     "resourceType": "Bundle",
     "type": "document",
-    "timestamp": "2026-03-23T09:45:03.056180",
+    "timestamp": "2026-05-11T17:52:31.935977",
     "entry": [
         {
-            "fullUrl": "urn:uuid:ed97759d-c22b-4026-988a-e5d720772542",
+            "fullUrl": "urn:uuid:5135a7b5-8d02-4c41-bea1-30f7e76ff604",
             "resource": {
                 "resourceType": "Composition",
                 "id": "c1",
                 "identifier": [
                     {
                         "system": "http://glucosa.cl/composition",
-                        "value": "comp-1774269903"
+                        "value": "comp-1778536351"
                     }
                 ],
                 "status": "final",
@@ -26,7 +26,7 @@
                     "text": "Laboratory report"
                 },
                 "title": "Informe de Perfil Ambulatorio de Glucosa",
-                "date": "2026-03-23T09:45:03.051264",
+                "date": "2026-05-11T17:52:31.935034",
                 "author": [
                     {
                         "reference": "Device/d1"
@@ -921,9 +921,10 @@
             }
         },
         {
-            "fullUrl": "urn:uuid:92153872-99e7-4000-af2f-7fa13da8dcb2",
+            "fullUrl": "urn:uuid:f0a554b9-9cd8-472c-8dd4-500d055381e1",
             "resource": {
                 "resourceType": "Patient",
+                "id": "p1",
                 "name": [
                     {
                         "given": [
@@ -932,28 +933,28 @@
                         "family": "López"
                     }
                 ],
-                "birthDate": "1998-05-06",
-                "id": "p1"
+                "birthDate": "1998-05-06"
             }
         },
         {
-            "fullUrl": "urn:uuid:1325f244-d84c-493d-a57c-140f766c0149",
+            "fullUrl": "urn:uuid:91e9c623-492e-4fa7-afdb-6e91274ede4b",
             "resource": {
                 "resourceType": "Device",
+                "id": "d1",
                 "deviceName": [
                     {
                         "name": "FreeStyle LibreLink",
                         "type": "user-friendly-name"
                     }
                 ],
-                "serialNumber": "e88994c0-6916-49d2-94d8-44cb8833d072",
-                "id": "d1"
+                "serialNumber": "e88994c0-6916-49d2-94d8-44cb8833d072"
             }
         },
         {
-            "fullUrl": "urn:uuid:c7ca21f5-5c90-4e22-9a03-e59db7dbdf1e",
+            "fullUrl": "urn:uuid:90cddb06-72c5-4962-9c48-554b6d0b36f0",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o1",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -975,14 +976,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o1"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b99afe30-1ed8-43e0-830d-9d8d47e0930c",
+            "fullUrl": "urn:uuid:7d6bb752-5465-4320-a9d0-fe9b7d2ab629",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o2",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1004,14 +1005,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o2"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:15e50bb8-fb6d-4400-b134-2fe68d89f3b3",
+            "fullUrl": "urn:uuid:2e270f25-1ef0-4dde-b7e4-ad50c0a3912d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o3",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1033,14 +1034,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o3"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:cf6af90c-7b10-4bca-ab6e-e322fad99d37",
+            "fullUrl": "urn:uuid:b54fe860-b2f6-4cec-8938-e437a690e111",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o4",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1062,14 +1063,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o4"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0153b7b5-ea08-4bc3-99e6-24ad39233895",
+            "fullUrl": "urn:uuid:027c79cc-0419-4aac-a069-d62f286afe21",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o5",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1091,14 +1092,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o5"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:c2d5c658-978f-412c-9f4d-c34fcf2c3fee",
+            "fullUrl": "urn:uuid:b96d8662-cb64-42b8-875b-54b619251fa7",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o6",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1120,14 +1121,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o6"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:228403f2-f1cc-46d6-b51a-32704443ca20",
+            "fullUrl": "urn:uuid:92a5f5cf-a7db-4be0-84ff-effbce01061f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o7",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1149,14 +1150,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o7"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ac7b56b0-f733-4605-af80-eaa976018bb6",
+            "fullUrl": "urn:uuid:25834fee-ea9c-4b95-afef-bd0933f57a27",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o8",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1178,14 +1179,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o8"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0d43c5b6-a8b6-4de8-82da-df63f51c0e35",
+            "fullUrl": "urn:uuid:3ea0c977-6d31-4a3d-a7ea-3a6cbf2fb45f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o9",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1207,14 +1208,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o9"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:f0d39562-61cc-4282-895a-062f621de14b",
+            "fullUrl": "urn:uuid:413c8ae1-ff18-4107-bdcc-e6eb52026916",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o10",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1236,14 +1237,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o10"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:cc0060c0-86c6-4437-9a8c-49adc2f0890c",
+            "fullUrl": "urn:uuid:ebf50995-5346-4890-8908-82dcec3908d5",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o11",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1265,14 +1266,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o11"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a265975a-7d82-4dd2-85ee-42bc215bbedf",
+            "fullUrl": "urn:uuid:57e850d4-fa3a-4357-9452-fa0f666546ee",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o12",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1294,14 +1295,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o12"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7debc2b6-7dd6-46df-91e4-1ebe80b932fa",
+            "fullUrl": "urn:uuid:0ccbe54b-2f9f-4774-b092-207f645dc934",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o13",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1323,14 +1324,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o13"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0016bdf7-e164-4e29-8464-efaa9eb184dc",
+            "fullUrl": "urn:uuid:3918667e-07ed-4cdd-beb6-2f41ef5af75f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o14",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1352,14 +1353,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o14"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:1cff4730-14ac-4815-a420-eda62c3d2bc4",
+            "fullUrl": "urn:uuid:5995e18b-3d59-4904-89c6-2c7aa673bc52",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o15",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1381,14 +1382,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o15"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:f77ea245-f51a-49cc-bd69-ea64726dc31c",
+            "fullUrl": "urn:uuid:974e3409-9e77-40d3-99f3-8ce710c61b15",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o16",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1410,14 +1411,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o16"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:94e996da-7c43-43d2-b824-d4bd5a26807d",
+            "fullUrl": "urn:uuid:070037db-d187-4791-9925-f10c41d915dc",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o17",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1439,14 +1440,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o17"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6c8d97b1-6102-4751-8ea6-b33569e0bc0b",
+            "fullUrl": "urn:uuid:be9d6e5d-c2d7-4e5a-8fd1-7de03841ab3d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o18",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1468,14 +1469,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o18"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7ae222c8-01f6-4e87-83c8-4c0dac4954c9",
+            "fullUrl": "urn:uuid:7d2bb7e8-03de-4b59-9b50-b75146da21ee",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o19",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1497,14 +1498,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o19"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b5b405da-5178-4f79-85f5-71fc8e906fc8",
+            "fullUrl": "urn:uuid:7cc86b3f-73eb-4bf8-83e9-a8f9f4206abd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o20",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1526,14 +1527,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o20"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d6625fb9-9950-4294-8ab7-82565ee460e2",
+            "fullUrl": "urn:uuid:f1f9c96d-921e-4a54-8a5e-b8304ffe44ad",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o21",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1555,14 +1556,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o21"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2167b908-f7ec-4234-857a-36ad96386b23",
+            "fullUrl": "urn:uuid:1e57e33c-d473-4b27-a55c-e7c3597743e3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o22",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1584,14 +1585,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o22"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:825b9039-7fe8-4619-a3ae-5b82f9f09982",
+            "fullUrl": "urn:uuid:8c726bdf-839f-41e0-b086-1a9e61c97350",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o23",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1613,14 +1614,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o23"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2ac38081-76b9-4780-91d7-8debe06c37ad",
+            "fullUrl": "urn:uuid:ee36ae42-cbf7-47c8-b4b3-65e17e6f9784",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o24",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1642,14 +1643,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o24"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ed44cdf6-3128-4083-a547-dda8f6db2c23",
+            "fullUrl": "urn:uuid:b91bc187-be1d-4606-9e0f-ec5966a7d89f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o25",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1671,14 +1672,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o25"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6dabcc07-ad52-4e6d-b80c-74633a627332",
+            "fullUrl": "urn:uuid:fd91358e-0d26-4737-a37e-7a395ba0fede",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o26",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1700,14 +1701,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o26"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d48e7641-d13f-45a2-a9f0-beed654ef38e",
+            "fullUrl": "urn:uuid:3edc7c6e-017f-439c-888a-b0cf81341e5d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o27",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1729,14 +1730,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o27"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:71a4d6ac-ef7b-40e5-b8e7-bfb025c8ebb3",
+            "fullUrl": "urn:uuid:50b603c9-f14e-4346-9440-d30cb8162f44",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o28",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1758,14 +1759,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o28"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6cc2ea75-c78e-405d-9b68-be84f735033c",
+            "fullUrl": "urn:uuid:280a8782-c1b3-4c30-9fe4-23535e8041cf",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o29",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1787,14 +1788,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o29"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6d2c671b-09ba-4bed-b7b6-9426762a1085",
+            "fullUrl": "urn:uuid:381ab382-62a1-4158-955a-b2959741ba93",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o30",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1816,14 +1817,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o30"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a4a42d15-7bff-4d51-961c-be908fa692cf",
+            "fullUrl": "urn:uuid:8bd7f87a-7735-4d40-a783-c008d1f834bd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o31",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1845,14 +1846,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o31"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:342dea3f-77de-46f6-829c-068165ef9c0a",
+            "fullUrl": "urn:uuid:3f6bae32-f678-41d3-8663-50997f03604f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o32",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1874,14 +1875,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o32"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:3a63a115-8abd-4989-bc7b-2ec9c0e42e94",
+            "fullUrl": "urn:uuid:8059f1e1-fc69-47cf-a947-003747edaf0b",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o33",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1903,14 +1904,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o33"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b39d44c2-ec42-4fe1-b36d-2b2e0797a722",
+            "fullUrl": "urn:uuid:a051afc6-36c2-4541-b08c-70c19bdb3247",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o34",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1932,14 +1933,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o34"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:eb3d6549-6286-4d0a-ac9c-32fc818a164a",
+            "fullUrl": "urn:uuid:d7fe3e52-4917-4073-bd50-f6e092fdfd02",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o35",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1961,14 +1962,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o35"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:32013ac8-af1b-420a-8509-5cf63fd38f61",
+            "fullUrl": "urn:uuid:c2da53db-5ce8-4ee7-ac58-ddfc7fba1903",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o36",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -1990,14 +1991,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o36"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:79a0139a-e529-49cd-8368-bc0aba39e93c",
+            "fullUrl": "urn:uuid:21e7bb16-234a-45ba-b416-2fed74816c7e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o37",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2019,14 +2020,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o37"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a2726c51-1f9f-4511-a4df-87f79d8db2bb",
+            "fullUrl": "urn:uuid:7db5abd2-1da9-4c01-bd09-14dd611e0b61",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o38",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2048,14 +2049,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o38"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:30a7ebbc-d314-4226-a8de-441742fbc558",
+            "fullUrl": "urn:uuid:6410d410-6c44-4188-b16e-c2f48059fe88",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o39",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2077,14 +2078,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o39"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4d19a84b-3c32-4da0-b60f-2e02323f6e5e",
+            "fullUrl": "urn:uuid:85e74e41-dcdb-4c5e-8474-17b6c586b591",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o40",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2106,14 +2107,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o40"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6bed5f74-7ad8-4b4a-80b7-cafba558d606",
+            "fullUrl": "urn:uuid:4ced8a77-a25b-49aa-84c0-59e774df84a3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o41",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2135,14 +2136,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o41"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:418016ca-9535-4534-9065-8ebdb00b98e1",
+            "fullUrl": "urn:uuid:9786811a-c975-46cc-a411-39726a8cb6f5",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o42",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2164,14 +2165,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o42"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a3c4c478-f015-49f1-86da-e03a9a7dc57d",
+            "fullUrl": "urn:uuid:60af234d-0387-4dd0-93fe-239c4220e6bc",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o43",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2193,14 +2194,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o43"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0f363992-d8e3-4a0c-ad37-a85c3ba2abf8",
+            "fullUrl": "urn:uuid:29647bb1-c424-464b-8ecd-b96e91b1bcbd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o44",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2222,14 +2223,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o44"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2fb6db1e-5d57-406a-bf38-089b01c5dc34",
+            "fullUrl": "urn:uuid:fa68ae8a-5ca1-4774-8dd1-ff143f8f3a22",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o45",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2251,14 +2252,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o45"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:5415d810-c036-4e57-8db3-f8027579906b",
+            "fullUrl": "urn:uuid:c44bea61-6781-4b71-a765-baa70deac572",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o46",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2280,14 +2281,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o46"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:f04c99ad-ec5b-489f-8fc1-5f194eadf8e2",
+            "fullUrl": "urn:uuid:392509e7-a138-4e02-8dc2-23646e7d5ca5",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o47",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2309,14 +2310,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o47"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:51b6f75b-77dd-4ffc-a5b8-daddc959b7a4",
+            "fullUrl": "urn:uuid:cfd77c22-4554-4718-9e05-ba4b033cfe0e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o48",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2338,14 +2339,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o48"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:bf9559ce-c3de-474e-8a0e-b197a3364a92",
+            "fullUrl": "urn:uuid:45ff9da7-4053-4747-91d7-6af6ecb46d0c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o49",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2367,14 +2368,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o49"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:bf38fc27-4a07-45b0-a8dc-b6c448f7c236",
+            "fullUrl": "urn:uuid:9d62de16-8a50-4797-ac59-ca0407c83eb5",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o50",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2396,14 +2397,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o50"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:30c37eca-b495-4e31-9c8e-066e5502e754",
+            "fullUrl": "urn:uuid:2a09b4fd-606d-4516-bf5f-7fd8958851a4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o51",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2425,14 +2426,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o51"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7e3fa57d-17bc-4590-b6c7-c88edbe3603a",
+            "fullUrl": "urn:uuid:e1f633ec-0265-489b-98f2-946f517ea9b4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o52",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2454,14 +2455,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o52"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b960b95d-fe86-4e46-98df-08cb08247c03",
+            "fullUrl": "urn:uuid:db754baf-b59b-4dba-a53d-90c9f43cfcd8",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o53",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2483,14 +2484,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o53"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6f4e35b9-9db1-4483-a583-fa1f60bcedaf",
+            "fullUrl": "urn:uuid:c6d0dc96-2b38-46a5-ae2a-8f12f9c39b19",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o54",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2512,14 +2513,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o54"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7fe87603-548c-4beb-92fc-c3bb5e50e55b",
+            "fullUrl": "urn:uuid:6717c088-e7df-429b-b3e3-e17255fd5cbe",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o55",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2541,14 +2542,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o55"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b68a1e77-404b-48a2-99bd-320e1b078c0b",
+            "fullUrl": "urn:uuid:6cb78744-2520-4196-a500-4ae78eb069e2",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o56",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2570,14 +2571,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o56"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4773dcb7-e61a-4436-94fe-874efafbd35d",
+            "fullUrl": "urn:uuid:d649c805-d04a-4944-9cc4-ed570d0a79b3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o57",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2599,14 +2600,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o57"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:df562f9e-33c8-44c1-892c-fea847ca605f",
+            "fullUrl": "urn:uuid:43f60039-4a18-4fdc-ab36-ac294a708c5d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o58",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2628,14 +2629,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o58"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7bd3e6c8-462a-470b-afad-1c27f3fb58cf",
+            "fullUrl": "urn:uuid:42cb3c88-5fcb-41ea-b280-a412271c9a22",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o59",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2657,14 +2658,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o59"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:fd4ec594-e7ff-488b-9cf2-0dbfd2881afa",
+            "fullUrl": "urn:uuid:24822384-844c-4163-a72e-dc0e4f940666",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o60",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2686,14 +2687,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o60"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:5d265a3c-d6e8-41dd-ac64-b24f31b1b6e2",
+            "fullUrl": "urn:uuid:acc38977-7e34-416a-b55e-7b8faa74af4d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o61",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2715,14 +2716,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o61"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e72590a8-b3a5-4ab8-a640-a8740f9a8cb9",
+            "fullUrl": "urn:uuid:369ffe6b-2f3a-4183-b5db-d8ec2718bff0",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o62",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2744,14 +2745,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o62"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:1143c499-1422-458d-837b-41bea4da2ec3",
+            "fullUrl": "urn:uuid:851742eb-d444-4eb3-8384-08fc2ce4fab7",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o63",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2773,14 +2774,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o63"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:16ea156f-c30c-4c1d-bd93-87fea526a2b0",
+            "fullUrl": "urn:uuid:c65d0a54-58bf-4394-bf4b-747a84600ce4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o64",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2802,14 +2803,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o64"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:5a0ab08b-40be-4d65-8180-72f8f97ae02c",
+            "fullUrl": "urn:uuid:2ba92902-b794-45c3-a752-1bb433717d6f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o65",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2831,14 +2832,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o65"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d23bbf54-d0cc-4026-b16c-27ec7f3df477",
+            "fullUrl": "urn:uuid:1f566fcd-f1df-4b88-ba80-94fa90676323",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o66",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2860,14 +2861,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o66"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7d2a7c0b-5014-4177-b36d-d2b6e5ef670d",
+            "fullUrl": "urn:uuid:1272593d-84e6-44b8-9d32-df5644bbdd07",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o67",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2889,14 +2890,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o67"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:9f62dfea-35be-47c3-abc8-4e90e4b91217",
+            "fullUrl": "urn:uuid:9d0c458e-3dda-46b4-b80f-9c8546b013e5",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o68",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2918,14 +2919,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o68"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d856eccb-3560-4ba0-b5d9-4cc1c6690f9e",
+            "fullUrl": "urn:uuid:190fd4e2-5f05-48ed-8b25-95fe78b8db17",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o69",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2947,14 +2948,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o69"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:5979d96d-1843-4175-a4b3-9483a77acc54",
+            "fullUrl": "urn:uuid:73c70402-1a44-42de-a405-8e6dd0758bdf",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o70",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -2976,14 +2977,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o70"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:bcf3bbf6-cc06-40d0-8c99-c6608d5382f1",
+            "fullUrl": "urn:uuid:cc20ad5c-ed01-42aa-be7f-57d95f5a3ba0",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o71",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3005,14 +3006,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o71"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:3d4e5c45-3c8c-42f9-815b-84d26ae2c42c",
+            "fullUrl": "urn:uuid:e46ac59f-2175-4401-a393-353be6bc61f2",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o72",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3034,14 +3035,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o72"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a0754a94-3e4e-4516-b1c9-7e23a53be0d4",
+            "fullUrl": "urn:uuid:01c3207c-1eb2-492f-92e2-23011016b699",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o73",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3063,14 +3064,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o73"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:77f94e9d-7180-4f52-907f-318eb12bf58f",
+            "fullUrl": "urn:uuid:f8376a10-c42c-4511-be99-6c6f1f6980c3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o74",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3092,14 +3093,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o74"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:58ff1620-02f6-4e5f-aae4-ba2847335e4e",
+            "fullUrl": "urn:uuid:5530e04a-bd71-4d15-90cc-d736f2fee122",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o75",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3121,14 +3122,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o75"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:84c38fb0-baa1-44a8-ae27-422696896476",
+            "fullUrl": "urn:uuid:b7802622-9a33-4996-99eb-41136118b4a2",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o76",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3150,14 +3151,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o76"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:13aa9dc8-0cb3-4d44-90db-f42c439b85d6",
+            "fullUrl": "urn:uuid:de66747f-d82d-44e4-a76d-974599cab69f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o77",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3179,14 +3180,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o77"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:9ee16e34-51c3-429d-96d1-2232d3c219bb",
+            "fullUrl": "urn:uuid:d1fdcd90-2883-4386-985d-5445630accc7",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o78",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3208,14 +3209,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o78"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:c96e5a82-8aa1-4e3e-ba99-264502812a2b",
+            "fullUrl": "urn:uuid:1692e996-6148-4119-b3e5-03022e309d5a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o79",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3237,14 +3238,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o79"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4bf7dcb8-373c-40ab-88bb-12c4b7af5a27",
+            "fullUrl": "urn:uuid:e370a08f-8cd1-4a62-bb25-9a2bb8c81840",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o80",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3266,14 +3267,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o80"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d98a0e1b-dd7b-46dc-a3b7-fdd5659fa30d",
+            "fullUrl": "urn:uuid:d8eacd14-f2cc-4ba1-b218-479d4fc6d8b8",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o81",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3295,14 +3296,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o81"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b40ce8c8-57ce-4b9d-bc78-80ffc2049b36",
+            "fullUrl": "urn:uuid:d6228489-5aca-4e03-9b74-681be65e032e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o82",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3324,14 +3325,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o82"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:61e653cb-ba52-4a7a-92c2-029265dfa24e",
+            "fullUrl": "urn:uuid:f66b0dcf-863d-4c6a-8518-3cb824bf1989",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o83",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3353,14 +3354,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o83"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6ce1a048-ddd7-4e6c-b10e-4039e7224803",
+            "fullUrl": "urn:uuid:14d13361-3a3d-4709-b75f-9be8d4a63d01",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o84",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3382,14 +3383,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o84"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ecad19d2-e44b-4343-b8be-122a412ec21d",
+            "fullUrl": "urn:uuid:37b9839a-25ba-4f1e-90d7-acfd47e4d65f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o85",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3411,14 +3412,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o85"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:37b5ddf5-ef8d-47bc-9ef1-873cc59cad14",
+            "fullUrl": "urn:uuid:6acf7eff-3dcf-4c4f-adae-8b9f8896c102",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o86",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3440,14 +3441,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o86"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a36c7b6b-43e1-4022-96b7-95144e455945",
+            "fullUrl": "urn:uuid:b8e05c79-09e2-477b-9ccf-119e24d661c9",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o87",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3469,14 +3470,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o87"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:16c9c935-ec08-4dc3-9e3a-b574305bd2ee",
+            "fullUrl": "urn:uuid:6d41a2c1-f5fe-4437-baa9-6126e35fe125",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o88",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3498,14 +3499,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o88"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:9ecceabf-bba7-446a-837b-46ab438d6582",
+            "fullUrl": "urn:uuid:caf2319f-e4a3-448c-b962-12d53124be58",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o89",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3527,14 +3528,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o89"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:5306df1d-fa9c-49e6-8a79-62a034f7ad28",
+            "fullUrl": "urn:uuid:c5508c16-27a7-46dd-81cb-e64b26cd2399",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o90",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3556,14 +3557,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o90"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:95c3bb40-2950-43bc-ad23-a69179d8f8a4",
+            "fullUrl": "urn:uuid:d14999ea-c743-487b-a362-aafeeac5ff6f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o91",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3585,14 +3586,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o91"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:1fa888b5-b76b-4ae7-90b5-016e87da9abc",
+            "fullUrl": "urn:uuid:c524c006-ed13-47ca-b71c-aab8349b7f33",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o92",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3614,14 +3615,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o92"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:f1096771-9979-4042-9785-723871061e21",
+            "fullUrl": "urn:uuid:3da00c44-c55f-47cf-89f5-1cab9752e88a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o93",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3643,14 +3644,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o93"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6fbce261-db85-4d2e-9e54-032b4961241f",
+            "fullUrl": "urn:uuid:4151eadc-3e7b-427f-98ee-e24269992654",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o94",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3672,14 +3673,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o94"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:04199ace-9ff5-477d-abdc-3a3b4900b436",
+            "fullUrl": "urn:uuid:dc618d4a-1b5e-4d5e-a2ef-289e600b65b9",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o95",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3701,14 +3702,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o95"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:98f1edd3-05cb-4436-b23f-c2afb2b8c062",
+            "fullUrl": "urn:uuid:3a1594c7-2fa1-4a7c-ab88-1a2a2924ea6d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o96",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3730,14 +3731,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o96"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:44d5a8ed-e558-44a4-9dfa-6eb18b4a4edb",
+            "fullUrl": "urn:uuid:56966774-7874-43c2-94a2-6065474e7632",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o97",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3759,14 +3760,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o97"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7fd131de-ed00-4688-904d-c3bda8e2d904",
+            "fullUrl": "urn:uuid:cd5f691b-0228-43b0-9d56-513256bb0ffd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o98",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3788,14 +3789,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o98"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:df0b2d5d-0319-4e29-bf9f-719859ae2412",
+            "fullUrl": "urn:uuid:597af773-1f5b-4b46-a9ee-41243f0cdd56",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o99",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3817,14 +3818,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o99"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:fa89adf1-3c1f-4abd-b091-895d56d98c4f",
+            "fullUrl": "urn:uuid:e98a9940-2bb1-4ebe-a02c-9923303ee4a5",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o100",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3846,14 +3847,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o100"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4fa5e3c2-8ede-4409-bb54-3c18ec5dab38",
+            "fullUrl": "urn:uuid:7fdc64e7-1baa-4adf-a0df-2819e036251c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o101",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3875,14 +3876,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o101"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:811dbebd-d048-4a18-9853-163c6966d04e",
+            "fullUrl": "urn:uuid:05884dbf-805e-46ea-8fbf-b538c9ef6653",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o102",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3904,14 +3905,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o102"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:46f797d9-611b-44b5-a0ab-168beebd4385",
+            "fullUrl": "urn:uuid:6d1fb531-5b31-45b4-a22a-fb385b30bb4f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o103",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3933,14 +3934,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o103"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:054173a4-7f41-481e-b7d7-8427ecb6fb49",
+            "fullUrl": "urn:uuid:313fd617-89ee-49d7-aaca-f4934e5d35cb",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o104",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3962,14 +3963,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o104"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e8f85bc9-7023-40c6-a068-27216663ee08",
+            "fullUrl": "urn:uuid:8e93e114-d796-4d99-a4d4-0c33f82bc89d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o105",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -3991,14 +3992,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o105"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:caca1533-4a4b-4fe8-bc63-692ae802f98c",
+            "fullUrl": "urn:uuid:b7261dc6-e854-48bd-894c-2aa0757916e7",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o106",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4020,14 +4021,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o106"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0d812400-c7b6-452e-b167-721dcd9a86a3",
+            "fullUrl": "urn:uuid:0cbc5214-09eb-410c-92a1-0b489759aaf2",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o107",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4049,14 +4050,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o107"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:302e1088-4e56-42e0-a1e1-b5da6b7d3165",
+            "fullUrl": "urn:uuid:5e6b066a-29f8-4db5-af5f-fac048bafc58",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o108",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4078,14 +4079,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o108"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:70d5d03c-63c7-4dd9-9296-6481c871285f",
+            "fullUrl": "urn:uuid:adf4a98f-d4ed-4210-9593-b561731ea405",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o109",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4107,14 +4108,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o109"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e51c01fa-e32d-49b8-a0ee-473754effda6",
+            "fullUrl": "urn:uuid:ca336447-4cb5-40ae-9c04-e46db4cfa13c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o110",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4136,14 +4137,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o110"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4524a0a7-36eb-4115-8b82-a281766d705f",
+            "fullUrl": "urn:uuid:848934a9-6e92-4e60-883b-76c431b562af",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o111",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4165,14 +4166,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o111"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:78415c6e-2b3b-425a-9ed1-302f5b44ad54",
+            "fullUrl": "urn:uuid:f7f15a0f-ab6b-435a-a90e-340fa03a0461",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o112",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4194,14 +4195,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o112"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a5e34834-7313-484f-9906-8ac84554a675",
+            "fullUrl": "urn:uuid:11b93edf-5f80-427e-9b8c-f092f54d0ba5",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o113",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4223,14 +4224,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o113"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2a34cc6a-3c6b-4d8e-af6b-b503dbfbdd29",
+            "fullUrl": "urn:uuid:7e5a56ad-eb8e-4515-99c3-ccf2528237d3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o114",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4252,14 +4253,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o114"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:87458d39-9573-4c5a-93c3-5a9ee7220cb0",
+            "fullUrl": "urn:uuid:6f0cb4d8-59a4-4ab5-92a3-04c2abfe7f21",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o115",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4281,14 +4282,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o115"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:66927532-19b9-4820-8e5d-c6eee543c86a",
+            "fullUrl": "urn:uuid:377c2553-24c0-4d38-b572-c1838a6bdbaf",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o116",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4310,14 +4311,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o116"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:31f734c5-c63c-41b8-9c1b-49d200d40efd",
+            "fullUrl": "urn:uuid:ffb57294-0e98-432f-9e40-a2ff8aafac21",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o117",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4339,14 +4340,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o117"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:16e0e3e2-cc88-43f4-9541-aee5bcf56a2c",
+            "fullUrl": "urn:uuid:eebe965d-19af-46f9-84c4-cedd5c644745",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o118",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4368,14 +4369,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o118"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:004375a0-8f41-4b01-8c26-fb223e6a4e54",
+            "fullUrl": "urn:uuid:2f6ad16e-7d96-41d7-a9c9-9f22ed7d3096",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o119",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4397,14 +4398,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o119"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6d1100bf-bf80-4154-9b85-ea9d6ff65c63",
+            "fullUrl": "urn:uuid:c5e93f28-fc82-40c8-bbf4-855a373b8b55",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o120",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4426,14 +4427,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o120"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:1e121f25-fda2-4ec1-b78d-255e3159bedf",
+            "fullUrl": "urn:uuid:396989fc-6be9-4115-afef-80176a94951c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o121",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4455,14 +4456,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o121"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b90f01c0-8014-4c64-9cb4-66fb2a6cf346",
+            "fullUrl": "urn:uuid:eef26842-104f-4ca4-9215-23394e97b563",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o122",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4484,14 +4485,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o122"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ff9ea70a-62b2-4002-99ce-2de8ab59772a",
+            "fullUrl": "urn:uuid:1aa970e3-2dad-48d5-8ee3-98d7cbea51af",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o123",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4513,14 +4514,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o123"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:3563ede6-e781-4be2-9710-68db084e457c",
+            "fullUrl": "urn:uuid:80b8f5ec-68ba-4355-b769-648f38485e00",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o124",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4542,14 +4543,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o124"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:8fe75115-3752-4287-a8b5-cd3905d30ba0",
+            "fullUrl": "urn:uuid:82e05644-7522-4d88-ab25-2602d5670cc9",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o125",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4571,14 +4572,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o125"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d88edb67-7fcf-4029-bc95-28d078fa208d",
+            "fullUrl": "urn:uuid:c57cccff-3c5e-4870-b473-e0ac0ea742b3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o126",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4600,14 +4601,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o126"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:db3f088e-208a-4016-93d6-f6ac2cb265e6",
+            "fullUrl": "urn:uuid:dd3bc447-4ca4-46db-8aba-af15a2847333",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o127",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4629,14 +4630,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o127"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a652687a-7207-4045-9640-d4a805e27026",
+            "fullUrl": "urn:uuid:3256c3b3-51b1-4535-b1c7-3b5601d92a3e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o128",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4658,14 +4659,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o128"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:37355e65-cb4b-4b09-ae40-5e15c9e7612e",
+            "fullUrl": "urn:uuid:63e17609-e6c9-4bd7-a5a0-190fd33e47ce",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o129",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4687,14 +4688,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o129"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e3e09b3e-8f7d-449c-80d3-ca7404bf2f47",
+            "fullUrl": "urn:uuid:0a93b5f6-58cd-4263-9665-224e281fbc1e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o130",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4716,14 +4717,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o130"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:56a98f6e-71ad-477c-bf94-099cd7524686",
+            "fullUrl": "urn:uuid:e398a616-c817-4270-bf22-2f32ffd65ffd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o131",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4745,14 +4746,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o131"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d4b47d1d-34f4-493e-9c93-4fb3b9494489",
+            "fullUrl": "urn:uuid:54c29b82-3ee7-4d87-b1c0-9b68caf07310",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o132",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4774,14 +4775,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o132"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:34b07fb8-617c-4c81-936a-4dd4a840db8c",
+            "fullUrl": "urn:uuid:fabfdad5-caf3-4db2-b8e2-1a2686b5b5aa",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o133",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4803,14 +4804,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o133"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:468f45b5-ca5d-49d7-a656-b795ba7eb530",
+            "fullUrl": "urn:uuid:b5e2f8f5-e5a7-4bcf-86b4-e370db3b4e7f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o134",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4832,14 +4833,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o134"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e9e81cf5-22c0-4639-bf01-76381a9daf92",
+            "fullUrl": "urn:uuid:dba632d8-0ad6-4404-a77c-12026431c8b9",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o135",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4861,14 +4862,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o135"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:928512a4-f0f2-4cd3-a07b-c09e203b6b19",
+            "fullUrl": "urn:uuid:1c308108-59db-4514-9ad7-57a07b7ff6ce",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o136",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4890,14 +4891,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o136"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:aabdd6f9-0d11-4afd-88f4-92ac7979171f",
+            "fullUrl": "urn:uuid:205134e3-dd78-4140-998e-2c33b561d282",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o137",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4919,14 +4920,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o137"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:23dec40a-13bb-4334-a497-935df937ed09",
+            "fullUrl": "urn:uuid:31241f7d-9ba7-48d8-9ec3-fdd278437632",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o138",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4948,14 +4949,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o138"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:374d4ce1-9b81-422c-aeb8-55d21d3e881e",
+            "fullUrl": "urn:uuid:45317ed3-2871-4161-9f7c-cb13806f0a8e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o139",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -4977,14 +4978,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o139"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:170ed7c8-2724-4a81-9e04-415f0b6b963f",
+            "fullUrl": "urn:uuid:bffa4b54-a6a7-4c0e-b0b4-1f103af10680",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o140",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5006,14 +5007,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o140"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ee81cc0e-1b58-47dd-939e-a1a669bdacbc",
+            "fullUrl": "urn:uuid:ac415de8-7cef-4f7f-8595-d472822ee253",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o141",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5035,14 +5036,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o141"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7c6aeaa6-919b-4f28-8f34-221f565f1543",
+            "fullUrl": "urn:uuid:65031a77-843a-4325-b894-d36a396c199e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o142",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5064,14 +5065,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o142"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:82f7c118-40e6-4fc6-83d2-05867efee9f8",
+            "fullUrl": "urn:uuid:62e311f6-915e-4a0e-9200-d65a9963de21",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o143",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5093,14 +5094,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o143"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4cec58a0-672a-4e61-9f31-5ba67250edf6",
+            "fullUrl": "urn:uuid:ed458d5a-eb75-476f-81d3-8b4cf7efedfe",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o144",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5122,14 +5123,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o144"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:5249586f-7c8d-4d34-bcc5-57697dd929ce",
+            "fullUrl": "urn:uuid:474355ac-d73d-4779-992e-c3efd0ae9ed1",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o145",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5151,14 +5152,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o145"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e047ba0f-fa6a-4090-ada5-b5b2dc298880",
+            "fullUrl": "urn:uuid:02c9ae2b-0b03-4874-825b-59437d4ee29a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o146",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5180,14 +5181,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o146"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:34d1d262-1e19-4b27-8180-67687669f3be",
+            "fullUrl": "urn:uuid:df9aba68-7fa7-4ac9-9e13-2fd385eff43a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o147",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5209,14 +5210,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o147"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4dbebd18-2ffc-4d3b-b0c2-7aba78ba9a0e",
+            "fullUrl": "urn:uuid:013db145-c5e1-4f48-a10f-396b5ed308ad",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o148",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5238,14 +5239,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o148"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:323ad1ce-8197-469a-8737-04fc96e2c741",
+            "fullUrl": "urn:uuid:1c97c8ba-8dc5-48ab-9538-3422c7e7a5f4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o149",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5267,14 +5268,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o149"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b2224a1e-3951-433d-b7c9-fe80ca5a7e09",
+            "fullUrl": "urn:uuid:004c26e8-05b2-4c11-97fb-19b4091c6354",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o150",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5296,14 +5297,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o150"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e2a73d4f-fdad-48ec-a0ca-ebf300df27d3",
+            "fullUrl": "urn:uuid:0f2914e2-03fc-4c52-9acf-21891e720f1e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o151",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5325,14 +5326,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o151"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:53f39bdb-c2a9-4c75-a85e-f5e16eda8fd4",
+            "fullUrl": "urn:uuid:0ce49929-9ad7-4b27-851e-841b3aed7a55",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o152",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5354,14 +5355,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o152"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6d7c16a4-b27a-4e02-b535-123b735e5a7f",
+            "fullUrl": "urn:uuid:ed13baec-26d7-4afb-8926-fcd8e61277c3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o153",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5383,14 +5384,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o153"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:34e76a74-721f-4695-a3c4-efda5e0a4ae5",
+            "fullUrl": "urn:uuid:dabb48be-0aa8-491a-8170-b428ac45013a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o154",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5412,14 +5413,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o154"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:757522a3-e73d-4156-9c13-0aa344e7e64d",
+            "fullUrl": "urn:uuid:df6e401a-30d0-440f-a8f3-c7f65bf3e778",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o155",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5441,14 +5442,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o155"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d98c747a-88f0-4fcd-9d83-4cc146823a64",
+            "fullUrl": "urn:uuid:9506f648-0c97-4e51-84ac-bee4b11abe7e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o156",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5470,14 +5471,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o156"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6a4ad3f5-8158-4091-8019-891440661a0f",
+            "fullUrl": "urn:uuid:0c5b75a0-0f5b-464f-84a7-a0b1cae25d00",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o157",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5499,14 +5500,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o157"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:12ceb165-bc76-4963-901d-d37268ad7cfe",
+            "fullUrl": "urn:uuid:cfa46b0f-e685-4407-b8d0-d55ba9e40482",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o158",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5528,14 +5529,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o158"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b44ea68e-7e12-43b1-8267-73d92bc75fa6",
+            "fullUrl": "urn:uuid:58d42540-2e0a-4080-a26b-3044e767464e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o159",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5557,14 +5558,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o159"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:8fff2c75-68b5-4d02-87d3-dd6c71368157",
+            "fullUrl": "urn:uuid:6f2e6b49-bb14-4b28-9eef-73e0b1d51bbd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o160",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5586,14 +5587,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o160"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:fba25002-3899-48ec-b7df-427295047f55",
+            "fullUrl": "urn:uuid:5ac9933c-a8a5-4ec5-a7ea-19c48214e35c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o161",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5615,14 +5616,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o161"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ca056679-9d75-4931-af9c-9b28c9b045b2",
+            "fullUrl": "urn:uuid:cccf264f-d5cc-45bd-88ef-23dce8891bb3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o162",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5644,14 +5645,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o162"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e64d9385-b4fb-4529-a0ec-86ddf35c4320",
+            "fullUrl": "urn:uuid:fced7b1a-8755-4a82-9a69-1ab8d4975a11",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o163",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5673,14 +5674,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o163"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2f5179f7-3e82-4696-9299-8f059db1c785",
+            "fullUrl": "urn:uuid:7ef1bf83-00c9-4b01-b811-afd6991204ec",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o164",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5702,14 +5703,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o164"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:49ba1d71-881c-4ef4-93b0-fd49c4df0503",
+            "fullUrl": "urn:uuid:cef8f7ca-a4d2-41b2-b03e-dc746a5b12a3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o165",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5731,14 +5732,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o165"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:bcc05271-007c-4abb-8dc6-bf1b975eb564",
+            "fullUrl": "urn:uuid:943bbe40-68e6-4e26-b71c-6eb105f0f40a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o166",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5760,14 +5761,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o166"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:80703918-7a9b-41db-8e97-98f303fdbdde",
+            "fullUrl": "urn:uuid:1e78a6a7-ae0e-4dbe-ac66-dd4b5331f005",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o167",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5789,14 +5790,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o167"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:c4d64e22-5cb5-4d40-9b48-f884d7188fc1",
+            "fullUrl": "urn:uuid:111c2fd3-35a7-444a-ae8e-2b16d36f06be",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o168",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5818,14 +5819,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o168"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:8197a397-9c38-46d1-87e8-52ff8dd0e001",
+            "fullUrl": "urn:uuid:171c1328-7c46-4e0d-a619-cf151e8f25e2",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o169",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5847,14 +5848,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o169"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:aa853d0b-a6a3-45e2-bba1-164f41079d40",
+            "fullUrl": "urn:uuid:d0959ae4-2e9a-4e7b-8105-9f224dbc61cd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o170",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5876,14 +5877,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o170"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ce1e3163-83d3-4fd6-bbdd-641c217bdbfc",
+            "fullUrl": "urn:uuid:8b2a8754-70b1-4458-9488-0af6122291b9",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o171",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5905,14 +5906,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o171"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:3458833c-a214-49f1-ad62-1804e6630250",
+            "fullUrl": "urn:uuid:b48e224b-3ea8-4d70-bfb6-40b74b54f1b9",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o172",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5934,14 +5935,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o172"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a433466e-725a-45e5-931d-8ae50e5d45a2",
+            "fullUrl": "urn:uuid:33f1fbc1-39f1-4b65-a6e5-fc3b793e5968",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o173",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5963,14 +5964,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o173"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:fa5eb9b1-24d7-4b96-9e6c-34ac2380cf9e",
+            "fullUrl": "urn:uuid:d646ce73-7136-4aee-99e0-f86a1f44f4f0",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o174",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -5992,14 +5993,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o174"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:aba68212-3725-4fe4-a85b-20bcfb148bcf",
+            "fullUrl": "urn:uuid:bb282f3a-1945-43a5-bedb-95c602aaa4c2",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o175",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6021,14 +6022,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o175"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:15c72243-66db-4d1f-bedb-0c5e6adbef64",
+            "fullUrl": "urn:uuid:cd64353a-295c-4d18-bd13-f9218c698644",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o176",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6050,14 +6051,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o176"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4939686e-f216-4773-b8fd-2f444ee8b738",
+            "fullUrl": "urn:uuid:b169376a-5de4-4ac9-90b1-439ac9a8bfe3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o177",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6079,14 +6080,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o177"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4eb372f9-65bd-452d-8185-e9b2fb2ed182",
+            "fullUrl": "urn:uuid:deab9dd9-90bc-4a30-a8fe-9f187fad85fd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o178",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6108,14 +6109,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o178"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:30d9f2de-4f4a-4ee9-a48c-4db15e12ba71",
+            "fullUrl": "urn:uuid:64734e04-a3d8-40b2-9ae3-70c5a5f86049",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o179",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6137,14 +6138,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o179"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4be203d3-15fc-4b75-a95b-da3d765a9533",
+            "fullUrl": "urn:uuid:d948df0c-ceea-4bf1-821f-62349c02ea6f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o180",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6166,14 +6167,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o180"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:da9ec3fa-6e89-45a3-8bc4-ec16b2292434",
+            "fullUrl": "urn:uuid:5c49b096-83fe-465e-9505-5c4aaa718099",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o181",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6195,14 +6196,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o181"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0da6e4dd-fb06-484d-a765-98b570070934",
+            "fullUrl": "urn:uuid:7cd9547a-052a-4ace-ad74-b847e1a7c779",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o182",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6224,14 +6225,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o182"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:cf82c9db-e8fd-414d-ad9f-ca5568ea3819",
+            "fullUrl": "urn:uuid:2ea97d37-bb2d-4f24-80fc-fae8e2b70338",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o183",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6253,14 +6254,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o183"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ee62508b-9697-4c4d-b40c-6991e08709b7",
+            "fullUrl": "urn:uuid:c9e111a3-66f1-415b-9b0a-5cd07b51dc9a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o184",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6282,14 +6283,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o184"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0dca5899-f090-4fe1-9661-3c919914fcc2",
+            "fullUrl": "urn:uuid:381da54b-f0cc-4f5f-b834-2f42c032af74",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o185",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6311,14 +6312,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o185"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:bbaf2427-1a5c-4453-afca-835130961d2f",
+            "fullUrl": "urn:uuid:4067f98d-c53d-4756-a042-61f7553af46f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o186",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6340,14 +6341,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o186"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:9cd84d5f-3467-4f48-a0da-642e77eae6ee",
+            "fullUrl": "urn:uuid:641d8ab9-30d6-4ae2-b9c9-53ad15aa3672",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o187",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6369,14 +6370,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o187"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:17ba3bee-c25c-4e0d-a882-24b0b04d3149",
+            "fullUrl": "urn:uuid:3b61c1b4-25b2-4625-8578-8539002d8d58",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o188",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6398,14 +6399,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o188"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4766e6b4-d7e7-441f-9925-469fbe5eadd1",
+            "fullUrl": "urn:uuid:63d69591-67b0-4fe6-b8ac-abc72699929f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o189",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6427,14 +6428,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o189"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:06edae3f-edd8-45c2-8997-93170bb505a1",
+            "fullUrl": "urn:uuid:71e50491-e9fc-408e-9545-17b5c98550c1",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o190",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6456,14 +6457,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o190"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b5485dbc-e11e-4ee3-9b93-a3d333cf5235",
+            "fullUrl": "urn:uuid:3d3fabc2-fa37-413b-aaac-0b4230c53308",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o191",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6485,14 +6486,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o191"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7c0d43dc-1fe0-4a05-8b5f-164441309997",
+            "fullUrl": "urn:uuid:7531a729-866f-4401-a47c-6a7054cbfbee",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o192",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6514,14 +6515,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o192"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:fddfd0c5-ae2b-41a7-a7ee-d85d92d25677",
+            "fullUrl": "urn:uuid:9f35958d-b1fa-4897-aba9-1c9b75a4eadd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o193",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6543,14 +6544,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o193"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:95fcbec1-3f20-42d7-847d-f9d0eae1fd54",
+            "fullUrl": "urn:uuid:6837dbc1-5e75-4af9-8e41-7a2dd35f958d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o194",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6572,14 +6573,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o194"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:f4143046-1a00-47ba-9c5c-ced6a25fbdd0",
+            "fullUrl": "urn:uuid:d3c38661-8493-4d59-a6cf-7b697b7b0532",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o195",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6601,14 +6602,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o195"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:bbec9c75-f34f-4763-b118-82c8c693e5ff",
+            "fullUrl": "urn:uuid:dbe2dcc7-2482-496f-9c07-d0932a4254ed",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o196",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6630,14 +6631,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o196"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:28b92e3c-59d2-4a2a-af7e-741112621bd0",
+            "fullUrl": "urn:uuid:f5d0141a-5e05-461d-9fa0-86f450bd82ca",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o197",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6659,14 +6660,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o197"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2b61779a-0dbc-42ec-a569-700dfc32c53d",
+            "fullUrl": "urn:uuid:e6612783-66f2-4ede-887b-c9fcd975e93c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o198",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6688,14 +6689,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o198"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ea650cbd-df66-4c01-bdf9-5c83f7a2dbc2",
+            "fullUrl": "urn:uuid:3f1cd23e-07d6-41eb-b2b8-a94044f7ff09",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o199",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6717,14 +6718,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o199"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:832c68c6-c45f-4add-a91a-9c701476e3b7",
+            "fullUrl": "urn:uuid:a0ed7272-4dd5-493f-bd57-93cb911f4016",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o200",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6746,14 +6747,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o200"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:5ab746d8-5427-4ff3-a67f-d87f77097c6e",
+            "fullUrl": "urn:uuid:d3e436a1-e6a9-4b00-854f-3d1348eba452",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o201",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6775,14 +6776,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o201"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:cc1812d8-9bf5-449d-aec8-6b9aec217df5",
+            "fullUrl": "urn:uuid:f18af0c3-7085-408c-aa55-ad5ceec95850",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o202",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6804,14 +6805,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o202"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:f9f3d372-265c-4d42-b715-f49ddc84a4e2",
+            "fullUrl": "urn:uuid:a1c6812e-cf8b-4078-be11-a96e3908c458",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o203",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6833,14 +6834,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o203"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:719ee148-677e-4d1d-8838-b66bca5b9046",
+            "fullUrl": "urn:uuid:79154059-4e78-4375-9d61-ea065e449f07",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o204",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6862,14 +6863,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o204"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2f2b17eb-2da8-48dc-aa0f-a4b38f263214",
+            "fullUrl": "urn:uuid:65d03cab-313a-430a-b2d1-edb9977b65aa",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o205",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6891,14 +6892,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o205"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e7803c48-a094-4122-a630-2a8882cda7bf",
+            "fullUrl": "urn:uuid:715bc9c4-647c-4c5b-9dba-ce54aa2a24f8",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o206",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6920,14 +6921,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o206"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:427d34b1-b3a3-4616-ba9e-037da5eb50d5",
+            "fullUrl": "urn:uuid:44fa9b9f-3d2b-4bdb-9946-2918d78c486c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o207",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6949,14 +6950,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o207"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:065d588b-de24-4d5a-a744-0c29b1c5a51b",
+            "fullUrl": "urn:uuid:5e33e63b-bede-42b9-a03b-e4c3fb9070d8",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o208",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -6978,14 +6979,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o208"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0099f80b-c6c8-4d9f-a6fc-97f5336d2b12",
+            "fullUrl": "urn:uuid:6751d6db-4814-4ef8-9d3c-648e3cd08856",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o209",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7007,14 +7008,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o209"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e55d1552-827c-4000-b79c-64db692a9cc9",
+            "fullUrl": "urn:uuid:eea295e8-704d-495b-a96a-edd6e6ea0aa7",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o210",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7036,14 +7037,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o210"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e8086cdd-4ce3-4c4a-a35d-f1e5fc425bd2",
+            "fullUrl": "urn:uuid:71afe5dd-8704-4170-95f3-f8c87625f80e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o211",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7065,14 +7066,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o211"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:3d3b8be7-8a83-435a-950b-70de0b096d07",
+            "fullUrl": "urn:uuid:9b5f2ae1-72c0-42f6-ba67-d2b080a27cc2",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o212",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7094,14 +7095,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o212"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:31d2e17f-144e-4422-a204-02192ea14150",
+            "fullUrl": "urn:uuid:c3e16692-b3ff-4277-b70e-0a20ffa19f70",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o213",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7123,14 +7124,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o213"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7dfab48e-16ed-4e58-b422-68d40855a228",
+            "fullUrl": "urn:uuid:6639a1f8-88e9-46a3-a150-020df3d6f20c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o214",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7152,14 +7153,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o214"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2b12f07c-6514-4fb8-9db1-ddc2e084f1b6",
+            "fullUrl": "urn:uuid:4cffc9fe-d5bd-4503-8861-f84a05708cf4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o215",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7181,14 +7182,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o215"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:eac8214b-aede-486c-ab07-e41063bc6b91",
+            "fullUrl": "urn:uuid:9b04a58c-3ad1-485d-ba66-b61630a16816",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o216",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7210,14 +7211,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o216"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:beaba5e7-c689-4d7c-b18a-8249e2f41caf",
+            "fullUrl": "urn:uuid:00d8013a-5ef0-4bd1-ab18-2e89c3987f88",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o217",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7239,14 +7240,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o217"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:25bb4903-6060-4fc0-9940-5e8dc0764813",
+            "fullUrl": "urn:uuid:861ea2ed-6e14-4619-a79f-6191c7a72d94",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o218",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7268,14 +7269,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o218"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:1073615c-8b84-45a9-a13d-06bb16141537",
+            "fullUrl": "urn:uuid:9ce902ec-5aa2-4242-9fa4-9308f5923026",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o219",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7297,14 +7298,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o219"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:21b44e1e-6d71-4383-9a51-40f56d125190",
+            "fullUrl": "urn:uuid:b35f9f41-e59f-4668-8e85-53af59964a43",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o220",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7326,14 +7327,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o220"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a27bb27c-6e84-4cc9-84a6-1b8c8a254f22",
+            "fullUrl": "urn:uuid:5e881281-0c2a-416a-a376-37896c3d2609",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o221",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7355,14 +7356,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o221"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b881ce6c-ea1e-4950-b238-4b27c0315314",
+            "fullUrl": "urn:uuid:42bd6a35-e0e8-463e-94d7-e026269c71c5",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o222",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7384,14 +7385,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o222"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:fe9d0171-24bb-4042-8c67-eff3bfbcdcdd",
+            "fullUrl": "urn:uuid:00b51e1e-fd61-44f2-8ad9-8576be0b297c",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o223",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7413,14 +7414,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o223"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:fb0df091-4723-4ba5-8cd6-ba78405a9469",
+            "fullUrl": "urn:uuid:edad501a-791a-40df-8ecd-574b3c6fdfa0",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o224",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7442,14 +7443,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o224"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e58a19a6-601f-4fea-aa1f-24998bc36026",
+            "fullUrl": "urn:uuid:a0c9f81e-45f4-4ca0-b3be-d3e0a334a42d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o225",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7471,14 +7472,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o225"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:69de7c47-db7b-4161-9a03-f9d10df1961a",
+            "fullUrl": "urn:uuid:2f4314c4-c8cd-4050-b16b-e6a6ce7cbacb",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o226",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7500,14 +7501,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o226"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:36caac3c-40fd-45ff-87ba-39cf4e3c1780",
+            "fullUrl": "urn:uuid:bd1c6e59-0513-488f-816f-c17490e01459",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o227",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7529,14 +7530,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o227"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e46f320d-3ce1-4fcb-8d04-3582f40688d0",
+            "fullUrl": "urn:uuid:59c6f291-40b4-4463-930d-57daa346df26",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o228",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7558,14 +7559,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o228"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:cf697e1d-86ba-40d0-9418-01b58757ac2a",
+            "fullUrl": "urn:uuid:acefcef8-dac3-436d-af53-e2f237fbfd72",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o229",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7587,14 +7588,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o229"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0eb5f902-43bf-4229-bbce-08196fe941d1",
+            "fullUrl": "urn:uuid:72af2179-70b1-4382-b39b-e8c9e7975a79",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o230",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7616,14 +7617,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o230"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:1724c72d-64ce-4e6b-bc22-a50a6b8b1add",
+            "fullUrl": "urn:uuid:61addc52-99fd-4485-8d03-2a096c79de24",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o231",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7645,14 +7646,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o231"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b1112c34-709d-4ae4-abae-0e4c83357215",
+            "fullUrl": "urn:uuid:a3703ead-8aa6-4374-8fff-3dd4bab24442",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o232",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7674,14 +7675,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o232"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4fde209c-7028-4058-9d30-66d22970722f",
+            "fullUrl": "urn:uuid:9f9a4cdf-716a-4abd-97b6-0532c9e5f8e9",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o233",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7703,14 +7704,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o233"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a3f7bcea-aefb-481b-b8fa-642fd4de2e55",
+            "fullUrl": "urn:uuid:9aaf28db-69de-4230-a94e-00e5ac135a80",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o234",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7732,14 +7733,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o234"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:34031a5e-c5b4-4306-a91c-ec7040b8a6f6",
+            "fullUrl": "urn:uuid:f79e3ef7-6aa7-4edf-a128-42a685bd99ff",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o235",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7761,14 +7762,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o235"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:55f87fce-7086-44c1-8e58-0a996c161a9c",
+            "fullUrl": "urn:uuid:17458908-c33f-4d7e-b080-c1e17b981761",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o236",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7790,14 +7791,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o236"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:fcee3e74-b186-42fb-a5e7-1f34d7fe7ac3",
+            "fullUrl": "urn:uuid:ecf685da-ec35-4f35-bdf8-24e878ebe2f3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o237",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7819,14 +7820,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o237"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:3f493b3e-d9a1-4320-853e-fcef856401b5",
+            "fullUrl": "urn:uuid:f76b712a-888c-4a63-ba7e-948faa76439b",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o238",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7848,14 +7849,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o238"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:77628a46-9c21-4326-883b-cc60b172cfc8",
+            "fullUrl": "urn:uuid:d1870a36-0a07-4bbd-b188-2a54c5ca6a7b",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o239",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7877,14 +7878,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o239"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:5668b94b-4d4f-4876-91c8-2635c3b6eb65",
+            "fullUrl": "urn:uuid:b99020e2-be15-43ff-9f15-3f400abd0a86",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o240",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7906,14 +7907,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o240"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d044ac14-a143-4978-bfa5-02a147daec0d",
+            "fullUrl": "urn:uuid:6ce5119d-f96b-461a-ac66-1cf8dce541ff",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o241",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7935,14 +7936,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o241"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4a99deed-edac-4c23-9864-7e8038ee8ffe",
+            "fullUrl": "urn:uuid:eacc0314-9c83-4e1d-9170-5b4392773f75",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o242",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7964,14 +7965,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o242"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:3a7133a9-4dd8-4245-8222-7675b2d39f72",
+            "fullUrl": "urn:uuid:69a35e03-b25a-4846-bdd2-6364bdc1c96b",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o243",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -7993,14 +7994,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o243"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:dff02aaa-66c3-426a-84ff-3cc8f449b952",
+            "fullUrl": "urn:uuid:d5a2442f-a1d4-4969-962d-2b87e6256819",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o244",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8022,14 +8023,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o244"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:c1fe465a-76b5-44fc-8a29-29d5d74a1c2e",
+            "fullUrl": "urn:uuid:08a55339-ed67-4636-8328-09063bc53025",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o245",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8051,14 +8052,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o245"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e6c77d81-9156-4976-933b-39819bc6e046",
+            "fullUrl": "urn:uuid:15ac71b4-0803-4e10-82fe-109fcfadcc23",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o246",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8080,14 +8081,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o246"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:00f74eda-4e07-4214-8767-25ab1a47a772",
+            "fullUrl": "urn:uuid:58dcbfbe-c683-42fc-b834-9f875997761a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o247",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8109,14 +8110,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o247"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e2c1e4ce-0534-4b2d-bbff-e21d02915075",
+            "fullUrl": "urn:uuid:7f284b09-8d09-4ae1-abdc-c106a44ffbc3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o248",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8138,14 +8139,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o248"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:1215b98e-1c4c-4e32-85f0-b97f69d62c27",
+            "fullUrl": "urn:uuid:7155eccf-7886-4921-96b3-76a31b24f632",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o249",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8167,14 +8168,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o249"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:280dd984-6498-42ee-82d0-25ed692ed449",
+            "fullUrl": "urn:uuid:c151a2a9-0387-458b-b428-16746be9d9bd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o250",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8196,14 +8197,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o250"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:83375c8f-83c8-4813-af91-8c2a234f0768",
+            "fullUrl": "urn:uuid:5652885d-a2b6-492f-a0c8-17684f5d34ad",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o251",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8225,14 +8226,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o251"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6f418399-053f-4645-acfc-9e4a03bcd480",
+            "fullUrl": "urn:uuid:63615415-45d5-4321-a45d-56f296d9acfc",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o252",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8254,14 +8255,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o252"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:9ab6b1be-56df-4ead-86f1-2bf2d234850a",
+            "fullUrl": "urn:uuid:e2fc6651-3c55-4c6f-b73f-5a5b7a837f84",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o253",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8283,14 +8284,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o253"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:a25a6b66-5100-4eb2-90d6-4f020223e10f",
+            "fullUrl": "urn:uuid:1e8d0a8c-cf79-4e64-9926-c3024f199ac4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o254",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8312,14 +8313,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o254"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6704acf8-e85c-4561-b274-ac0c4e27a4eb",
+            "fullUrl": "urn:uuid:b076bd59-ba3b-4154-af08-801d5e3b4934",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o255",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8341,14 +8342,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o255"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4ddd4e38-d45a-4c99-bd73-d2af5363a786",
+            "fullUrl": "urn:uuid:b1579337-35d9-492f-a412-97d543aa9b17",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o256",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8370,14 +8371,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o256"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:f3899252-5b7b-4957-9b6c-a84eddb8e92f",
+            "fullUrl": "urn:uuid:404976f2-5708-4fbc-8eee-709f04a3e9bd",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o257",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8399,14 +8400,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o257"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:4f6260d4-77aa-40b1-80ae-ca96146cd1ea",
+            "fullUrl": "urn:uuid:910ef767-bfcc-4e4d-b58d-b6e91d18066a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o258",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8428,14 +8429,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o258"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:f069db09-f8c7-437d-98da-4c7ad2c17d35",
+            "fullUrl": "urn:uuid:3a46d70a-bf93-4f71-994d-277b796c35e4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o259",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8457,14 +8458,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o259"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e36e58ad-88ce-420c-a858-acbf98fdef1f",
+            "fullUrl": "urn:uuid:d7ee40c6-1caf-4cb0-bf9d-4f1417ee6c74",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o260",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8486,14 +8487,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o260"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:86c40d6e-3a51-4657-b4a1-c2d2288161ea",
+            "fullUrl": "urn:uuid:74d70cdd-f553-4c53-8b57-2b61fa837b29",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o261",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8515,14 +8516,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o261"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:cae895c0-b87e-422b-b17d-7c87dae5e8d2",
+            "fullUrl": "urn:uuid:38616147-70d1-4e9f-b3d6-a530fd05d25f",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o262",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8544,14 +8545,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o262"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d789ef12-4729-4385-98fa-96a1e0068fc4",
+            "fullUrl": "urn:uuid:23eecc6d-4ec6-4c13-b00e-2cf8f1355903",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o263",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8573,14 +8574,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o263"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:6ebe099c-8256-4a70-86d5-78318089a045",
+            "fullUrl": "urn:uuid:76444ecd-7cf7-45f6-b49d-30c1b126d998",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o264",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8602,14 +8603,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o264"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:8007d11f-ca69-44f7-a96e-18ed4355a0a0",
+            "fullUrl": "urn:uuid:725a6f37-f4ce-43a5-9de7-73f7baf8ec94",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o265",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8631,14 +8632,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o265"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:41d13064-c02f-4a34-b514-b6f963cc8247",
+            "fullUrl": "urn:uuid:4492a43f-4765-436f-8343-89ebfc722673",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o266",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8660,14 +8661,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o266"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0d59c5d7-929a-40a9-af52-29e11ceff36a",
+            "fullUrl": "urn:uuid:11f5a23c-40e4-40ac-964c-d2518225d011",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o267",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8689,14 +8690,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o267"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:52ae92c1-1833-4718-ade4-85429839a895",
+            "fullUrl": "urn:uuid:4d7f5e83-d359-4ffb-a466-fc4f21ae2c1e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o268",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8718,14 +8719,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o268"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:0fad5de9-4c9b-49eb-bb95-1f5a98bc5109",
+            "fullUrl": "urn:uuid:a66eb067-897d-4734-b8af-e7974123b4b2",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o269",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8747,14 +8748,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o269"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:d2433e34-4059-40c3-9175-1ddc3f2f3f90",
+            "fullUrl": "urn:uuid:9e7619c7-d4d9-4b7a-bb2f-f420a4bdc697",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o270",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8776,14 +8777,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o270"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e8d5f881-ee83-415e-9045-09dda93c869c",
+            "fullUrl": "urn:uuid:c55108d0-1f43-4721-b444-e042b0e79952",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o271",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8805,14 +8806,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o271"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:2eb35510-cf96-4019-ad0c-eeb2bb052937",
+            "fullUrl": "urn:uuid:bcfcd57e-0a0c-451b-b28d-a9bfeb546492",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o272",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8834,14 +8835,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o272"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:8188f362-34c2-40a8-a301-45440d38d4ec",
+            "fullUrl": "urn:uuid:f0a714aa-9cbc-49ef-a274-0f8548f15738",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o273",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8863,14 +8864,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o273"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:c59e36d5-3aef-4958-a06b-a7f9ff628dac",
+            "fullUrl": "urn:uuid:7691e7f4-ced2-43f8-bb15-37942d075038",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o274",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8892,14 +8893,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o274"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:b26d3223-1d5a-4198-b7b6-46979bc8a6b0",
+            "fullUrl": "urn:uuid:874bf8f0-3a68-4326-a9f2-77e7930570e3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o275",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8921,14 +8922,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o275"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ce33691f-e1e1-46a9-b3c9-23f7b5781ad2",
+            "fullUrl": "urn:uuid:a7e3a878-4b2f-4398-8125-84036a5810ff",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o276",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8950,14 +8951,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o276"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:741d5096-06cd-4acd-b207-413474828ee9",
+            "fullUrl": "urn:uuid:170a7b8d-24a0-463a-be10-db07d1747623",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o277",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -8979,14 +8980,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o277"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ea9c0f2a-0bf5-48d2-969c-d3d5d602b702",
+            "fullUrl": "urn:uuid:257e1421-34ed-46c6-9334-9f2b797317e4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o278",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9008,14 +9009,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o278"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:26f9a354-87fa-46ae-ab12-f3f5162b6289",
+            "fullUrl": "urn:uuid:fb8cfd6b-ad1e-4f6e-9cf9-a02f562d5088",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o279",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9037,14 +9038,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o279"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:c56010b8-3e6f-41fa-9164-a0562e74d0f7",
+            "fullUrl": "urn:uuid:164f41e9-8c7e-492c-8809-49ea3bbf377a",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o280",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9066,14 +9067,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o280"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:9cc30da6-cf58-4fa6-9368-63a61a148578",
+            "fullUrl": "urn:uuid:432c1dfb-5bfb-49e5-b94d-c3bc63b15544",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o281",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9095,14 +9096,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o281"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:bfc5228b-bc69-4197-b754-fae757bfaddb",
+            "fullUrl": "urn:uuid:1941302d-8d3f-48dd-94e9-3f69f46bcc00",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o282",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9124,14 +9125,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o282"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:27cd8d3a-18f8-474d-8f4b-9b98d8912810",
+            "fullUrl": "urn:uuid:341da9fb-dc7e-4bb1-9939-64eb718643f4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o283",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9153,14 +9154,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o283"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:7cd4a469-f8f2-4124-ac3f-8d621b3ad83a",
+            "fullUrl": "urn:uuid:9d969a57-788a-452b-a64a-f669d24e49b9",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o284",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9182,14 +9183,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o284"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:e899130e-3438-47d9-afeb-89057fcfc148",
+            "fullUrl": "urn:uuid:2e47ab3a-2de8-43f5-9bee-f1912c49e3c3",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o285",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9211,14 +9212,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o285"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:cd52b6cd-7e05-443a-ac19-d2d78b134028",
+            "fullUrl": "urn:uuid:e9194d1c-2243-4559-aa8c-4a2a65f8de2e",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o286",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9240,14 +9241,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o286"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:ee80934b-097e-42ea-a5ab-b7cb2eaee498",
+            "fullUrl": "urn:uuid:6d8532b3-9ff0-438d-8b07-9d618d36c2f1",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o287",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9269,14 +9270,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o287"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:85580690-9ba3-4380-a3ce-514e9f7e4cc8",
+            "fullUrl": "urn:uuid:5f7403dd-9a7f-4a76-8413-2f648b934745",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o288",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9298,14 +9299,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o288"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:13127518-d29b-444f-8d2a-7310664277c5",
+            "fullUrl": "urn:uuid:016792ea-5194-46eb-9dc9-1235f678efd4",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o289",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9327,14 +9328,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o289"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:03199f95-f923-44b2-9594-bf7f13ffa968",
+            "fullUrl": "urn:uuid:d60028e6-54ad-4326-b8d1-7c06a32681ec",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o290",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9356,14 +9357,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o290"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:785744a6-b654-4499-98a0-94b68697b160",
+            "fullUrl": "urn:uuid:2450cf45-d292-4cc1-a69d-e2a3cddcd366",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o291",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9385,14 +9386,14 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o291"
+                }
             }
         },
         {
-            "fullUrl": "urn:uuid:c8a84838-bcf0-425b-a3a0-cb0d15471c8b",
+            "fullUrl": "urn:uuid:9f89716d-e9be-4916-a745-d7fa568aff2d",
             "resource": {
                 "resourceType": "Observation",
+                "id": "o292",
                 "status": "final",
                 "code": {
                     "text": "Resultado desde Excel"
@@ -9414,8 +9415,7 @@
                     "unit": "mg/dl",
                     "code": "mg/dl",
                     "system": "http://unitsofmeasure.org"
-                },
-                "id": "o292"
+                }
             }
         }
     ]

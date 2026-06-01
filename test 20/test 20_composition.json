@@ -4,7 +4,7 @@
     "identifier": [
         {
             "system": "http://glucosa.cl/composition",
-            "value": "comp-1774269610"
+            "value": "comp-1778536351"
         }
     ],
     "status": "final",
@@ -19,7 +19,7 @@
         "text": "Laboratory report"
     },
     "title": "Informe de Perfil Ambulatorio de Glucosa",
-    "date": "2026-03-23T09:40:10.523760",
+    "date": "2026-05-11T17:52:31.935034",
     "author": [
         {
             "reference": "Device/d1"

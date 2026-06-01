@@ -1,10 +1,11 @@
 {
     "resourceType": "Device",
+    "id": "d1",
     "deviceName": [
         {
             "name": "FreeStyle LibreLink",
             "type": "user-friendly-name"
         }
     ],
-    "serialNumber": "e88994c0-6916-49d2-94d8-44cb8833d072"
+    "serialNumber": "13802201-956E-483E-8CA0-7979AC91168B"
 }
